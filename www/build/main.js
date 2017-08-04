@@ -86,7 +86,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/'<ion-content padding>\n  <h3 text-center>\n    Angular animations within the Ionic framework.\n  </h3>\n\n  <ion-row center>\n    <!-- Animation Selection -->\n    <ion-card color="light">\n      <ion-card-content>\n        <ion-item color="transparent">\n          <ion-select [(ngModel)]="animation" margin-right>\n            <ion-label>Select Animation</ion-label>\n            <span *ngFor="let animation of animations">\n              <p>{{animation?.type}}</p>\n              <ion-option *ngFor="let option of animation.options" [value]="option.name">{{option?.name}}</ion-option>\n            </span>\n          </ion-select>\n          <button ion-button \n            item-right \n            large color="primary" \n            (click)="doAnimate(animation)">\n              Animate\n          </button>\n          <button ion-button clear icon-only large item-right>\n            <ion-icon name="code"></ion-icon>\n          </button>\n        </ion-item>\n      </ion-card-content>\n    </ion-card>\n  </ion-row>\n\n  <!-- Text to Animate -->\n  <h1 text-center *ngIf="animationType | async" [@animationType]="animationType | async">\n    {{animation}}\n  </h1>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar color="primary">\n    <ion-title>By Sarah Tully. Based on the <a href="https://github.com/daneden/animate.css" ion-text color="light" target="_blank">animate.css</a> library.</ion-title>\n    <ion-buttons end>\n      <button ion-button clear>\n        View on Github\n      </button>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/,
+        selector: 'page-home',template:/*ion-inline-start:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/'<ion-content padding>\n  <h3 text-center>\n    Angular animations within the Ionic framework.\n  </h3>\n\n  <ion-row center>\n    <!-- Animation Selection -->\n    <ion-card color="light">\n      <ion-card-content>\n        <ion-item color="transparent">\n          <ion-select [(ngModel)]="animation" margin-right>\n            <ion-label>Select Animation</ion-label>\n            <span *ngFor="let animation of animations">\n              <p>{{animation?.type}}</p>\n              <ion-option *ngFor="let option of animation.options" [value]="option.name">{{option?.name}}</ion-option>\n            </span>\n          </ion-select>\n          <button ion-button \n            item-right \n            #animateButton\n            large color="primary" \n            (click)="doAnimate(animation)">\n              Animate\n          </button>\n          <button ion-button clear icon-only large item-right>\n            <ion-icon name="code"></ion-icon>\n          </button>\n        </ion-item>\n      </ion-card-content>\n    </ion-card>\n  </ion-row>\n\n  <!-- Text to Animate -->\n  <h1 text-center *ngIf="animationType | async" [@animationType]="animationType | async">\n    {{animation}}\n  </h1>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar color="primary">\n    <ion-title>By Sarah Tully. Based on the <a href="https://github.com/daneden/animate.css" ion-text color="light" target="_blank">animate.css</a> library.</ion-title>\n    <ion-buttons end>\n      <button ion-button clear>\n        View on Github\n      </button>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/,
         animations: [
             Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["h" /* trigger */])('animationType', [
                 /** Bounce **/
@@ -605,8 +605,11 @@ AnimationsProvider = __decorate([
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_web_animations_js_web_animations_min__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_web_animations_js_web_animations_min___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_web_animations_js_web_animations_min__);
 
 
+ // need this for animations to work in safari
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
 //# sourceMappingURL=main.js.map
 
@@ -719,10 +722,9 @@ var MyApp = (function () {
 MyApp = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/Sarah/Apps/ng-ionic-animate/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/Sarah/Apps/ng-ionic-animate/src/app/app.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _c || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
 
-var _a, _b, _c;
 //# sourceMappingURL=app.component.js.map
 
 /***/ })
