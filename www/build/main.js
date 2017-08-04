@@ -1,1 +1,731 @@
-webpackJsonp([0],{102:function(t,e){function n(t){return new Promise(function(e,n){n(new Error("Cannot find module '"+t+"'."))})}n.keys=function(){return[]},n.resolve=n,t.exports=n,n.id=102},111:function(t,e,n){"use strict";function i(t){return b._26(0,[(t()(),b._4(0,null,null,2,"ion-nav",[],null,null,null,S.b,S.a)),b._3(4374528,null,0,P.a,[[2,O.a],[2,x.a],A.a,E.a,w.a,b.k,b.y,b.E,b.j,v.f,R.a,[2,I.a],D.a,b.l],{root:[0,"root"]},null),b._21(6144,null,C.a,null,[P.a]),(t()(),b._24(null,["\n"]))],function(t,e){t(e,1,0,e.component.rootPage)},null)}function o(t){return F._26(0,[(t()(),F._4(0,null,null,2,"ion-option",[],null,null,null,null,null)),F._3(16384,[[4,4]],0,H.a,[F.k],{value:[0,"value"]},null),(t()(),F._24(null,["",""]))],function(t,e){t(e,1,0,e.context.$implicit.name)},function(t,e){t(e,2,0,null==e.context.$implicit?null:e.context.$implicit.name)})}function s(t){return F._26(0,[(t()(),F._4(0,null,null,7,"span",[],null,null,null,null,null)),(t()(),F._24(null,["\n              "])),(t()(),F._4(0,null,null,1,"p",[],null,null,null,null,null)),(t()(),F._24(null,["",""])),(t()(),F._24(null,["\n              "])),(t()(),F._0(16777216,null,null,1,null,o)),F._3(802816,null,0,N.h,[F.O,F.L,F.s],{ngForOf:[0,"ngForOf"]},null),(t()(),F._24(null,["\n            "]))],function(t,e){t(e,6,0,e.context.$implicit.options)},function(t,e){t(e,3,0,null==e.context.$implicit?null:e.context.$implicit.type)})}function r(t){return F._26(0,[(t()(),F._4(0,null,null,2,"h1",[["text-center",""]],[[24,"@animationType",0]],null,null,null,null)),F._19(131072,N.b,[F.h]),(t()(),F._24(null,["\n    ","\n  "]))],null,function(t,e){var n=e.component;t(e,0,0,F._25(e,0,0,F._17(e,1).transform(n.animationType))),t(e,2,0,n.animation)})}function l(t){return F._26(0,[(t()(),F._4(0,null,null,58,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,B.b,B.a)),F._3(4374528,null,0,z.a,[G.a,U.a,X.a,F.k,F.E,V.a,K.a,F.y,[2,q.a],[2,$.a]],null,null),(t()(),F._24(1,["\n  "])),(t()(),F._4(0,null,1,1,"h3",[["text-center",""]],null,null,null,null,null)),(t()(),F._24(null,["\n    Angular animations within the Ionic framework.\n  "])),(t()(),F._24(1,["\n\n  "])),(t()(),F._4(0,null,1,46,"ion-row",[["center",""],["class","row"]],null,null,null,null,null)),F._3(16384,null,0,Z.a,[],null,null),(t()(),F._24(null,["\n    "])),(t()(),F._24(null,["\n    "])),(t()(),F._4(0,null,null,41,"ion-card",[["color","light"]],null,null,null,null,null)),F._3(16384,null,0,Y.a,[G.a,F.k,F.E],{color:[0,"color"]},null),(t()(),F._24(null,["\n      "])),(t()(),F._4(0,null,null,37,"ion-card-content",[],null,null,null,null,null)),F._3(16384,null,0,J.a,[G.a,F.k,F.E],null,null),(t()(),F._24(null,["\n        "])),(t()(),F._4(0,null,null,33,"ion-item",[["class","item item-block"],["color","transparent"]],null,null,null,Q.b,Q.a)),F._3(1097728,null,3,W.a,[tt.a,G.a,F.k,F.E,[2,et.a]],{color:[0,"color"]},null),F._22(335544320,1,{contentLabel:0}),F._22(603979776,2,{_buttons:1}),F._22(603979776,3,{_icons:1}),F._3(16384,null,0,nt.a,[],null,null),(t()(),F._24(2,["\n          "])),(t()(),F._4(0,null,3,14,"ion-select",[["margin-right",""]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"],[null,"keyup.space"]],function(t,e,n){var i=!0,o=t.component;return"click"===e&&(i=!1!==F._17(t,24)._click(n)&&i),"keyup.space"===e&&(i=!1!==F._17(t,24)._keyup()&&i),"ngModelChange"===e&&(i=!1!==(o.animation=n)&&i),i},it.b,it.a)),F._3(1228800,null,1,ot.a,[V.a,tt.a,G.a,F.k,F.E,[2,W.a],st.a],null,null),F._22(603979776,4,{options:1}),F._21(1024,null,rt.e,function(t){return[t]},[ot.a]),F._3(671744,null,0,rt.h,[[8,null],[8,null],[8,null],[2,rt.e]],{model:[0,"model"]},{update:"ngModelChange"}),F._21(2048,null,rt.f,null,[rt.h]),F._3(16384,null,0,rt.g,[rt.f],null,null),(t()(),F._24(null,["\n            "])),(t()(),F._4(0,null,null,2,"ion-label",[],null,null,null,null,null)),F._3(16384,[[1,4]],0,lt.a,[G.a,F.k,F.E,[8,null],[8,null],[8,null],[8,null]],null,null),(t()(),F._24(null,["Select Animation"])),(t()(),F._24(null,["\n            "])),(t()(),F._0(16777216,null,null,1,null,s)),F._3(802816,null,0,N.h,[F.O,F.L,F.s],{ngForOf:[0,"ngForOf"]},null),(t()(),F._24(null,["\n          "])),(t()(),F._24(2,["\n          "])),(t()(),F._4(0,null,4,2,"button",[["color","primary"],["ion-button",""],["item-right",""],["large",""]],null,[[null,"click"]],function(t,e,n){var i=!0,o=t.component;return"click"===e&&(i=!1!==o.doAnimate(o.animation)&&i),i},at.b,at.a)),F._3(1097728,[[2,4]],0,_t.a,[[8,""],G.a,F.k,F.E],{color:[0,"color"],large:[1,"large"]},null),(t()(),F._24(0,["\n              Animate\n          "])),(t()(),F._24(2,["\n          "])),(t()(),F._4(0,null,4,5,"button",[["clear",""],["icon-only",""],["ion-button",""],["item-right",""],["large",""]],null,null,null,at.b,at.a)),F._3(1097728,[[2,4]],0,_t.a,[[8,""],G.a,F.k,F.E],{large:[0,"large"],clear:[1,"clear"]},null),(t()(),F._24(0,["\n            "])),(t()(),F._4(0,null,0,1,"ion-icon",[["name","code"],["role","img"]],[[2,"hide",null]],null,null,null,null)),F._3(147456,null,0,pt.a,[G.a,F.k,F.E],{name:[0,"name"]},null),(t()(),F._24(0,["\n          "])),(t()(),F._24(2,["\n        "])),(t()(),F._24(null,["\n      "])),(t()(),F._24(null,["\n    "])),(t()(),F._24(null,["\n  "])),(t()(),F._24(1,["\n\n  "])),(t()(),F._24(1,["\n  "])),(t()(),F._0(16777216,null,1,2,null,r)),F._3(16384,null,0,N.i,[F.O,F.L],{ngIf:[0,"ngIf"]},null),F._19(131072,N.b,[F.h]),(t()(),F._24(1,["\n"])),(t()(),F._24(null,["\n\n"])),(t()(),F._4(0,null,null,23,"ion-footer",[],null,null,null,null,null)),F._3(16384,null,0,ut.a,[G.a,F.k,F.E,[2,q.a]],null,null),(t()(),F._24(null,["\n  "])),(t()(),F._4(0,null,null,19,"ion-toolbar",[["class","toolbar"],["color","primary"]],[[2,"statusbar-padding",null]],null,null,yt.b,yt.a)),F._3(49152,null,0,ft.a,[G.a,F.k,F.E],{color:[0,"color"]},null),(t()(),F._24(3,["\n    "])),(t()(),F._4(0,null,3,6,"ion-title",[],null,null,null,ct.b,ct.a)),F._3(49152,null,0,mt.a,[G.a,F.k,F.E,[2,ft.a],[2,ht.a]],null,null),(t()(),F._24(0,["By Sarah Tully. Based on the "])),(t()(),F._4(0,null,0,2,"a",[["color","light"],["href","https://github.com/daneden/animate.css"],["ion-text",""],["target","_blank"]],null,null,null,null,null)),F._3(16384,null,0,gt.a,[G.a,F.k,F.E],{color:[0,"color"]},null),(t()(),F._24(null,["animate.css"])),(t()(),F._24(0,[" library."])),(t()(),F._24(3,["\n    "])),(t()(),F._4(0,null,2,7,"ion-buttons",[["end",""]],null,null,null,null,null)),F._3(16384,null,1,dt.a,[G.a,F.k,F.E,[2,ft.a],[2,ht.a]],null,null),F._22(603979776,5,{_buttons:1}),(t()(),F._24(null,["\n      "])),(t()(),F._4(0,null,null,2,"button",[["clear",""],["ion-button",""]],null,null,null,at.b,at.a)),F._3(1097728,[[5,4]],0,_t.a,[[8,""],G.a,F.k,F.E],{clear:[0,"clear"]},null),(t()(),F._24(0,["\n        View on Github\n      "])),(t()(),F._24(null,["\n    "])),(t()(),F._24(3,["\n  "])),(t()(),F._24(null,["\n"])),(t()(),F._24(null,["\n"]))],function(t,e){var n=e.component;t(e,11,0,"light");t(e,17,0,"transparent"),t(e,27,0,n.animation),t(e,36,0,n.animations);t(e,40,0,"primary","");t(e,44,0,"","");t(e,47,0,"code"),t(e,56,0,F._25(e,56,0,F._17(e,57).transform(n.animationType)));t(e,64,0,"primary");t(e,70,0,"light");t(e,79,0,"")},function(t,e){t(e,0,0,F._17(e,1).statusbarPadding,F._17(e,1)._hasRefresher),t(e,23,0,F._17(e,24)._disabled,F._17(e,29).ngClassUntouched,F._17(e,29).ngClassTouched,F._17(e,29).ngClassPristine,F._17(e,29).ngClassDirty,F._17(e,29).ngClassValid,F._17(e,29).ngClassInvalid,F._17(e,29).ngClassPending),t(e,46,0,F._17(e,47)._hidden),t(e,63,0,F._17(e,64)._sbPadding)})}Object.defineProperty(e,"__esModule",{value:!0});var a=n(0),_=n(76),p=n(137),u=(n.n(p),this&&this.__decorate||function(t,e,n,i){var o,s=arguments.length,r=s<3?e:null===i?i=Object.getOwnPropertyDescriptor(e,n):i;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(t,e,n,i);else for(var l=t.length-1;l>=0;l--)(o=t[l])&&(r=(s<3?o(r):s>3?o(e,n,r):o(e,n))||r);return s>3&&r&&Object.defineProperty(e,n,r),r}),y=this&&this.__metadata||function(t,e){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(t,e)},f=function(){function t(t){this.http=t}return t.prototype.getAnimations=function(){var t=this;return new Promise(function(e){t.http.get("assets/data/data.json").map(function(t){return JSON.parse(t._body)}).subscribe(function(t){console.log(t),e(t)})})},t}();f=u([Object(a.p)(),y("design:paramtypes",["function"==typeof(c=void 0!==_.d&&_.d)&&c||Object])],f);n(0),n(91),n(60);var c,m=n(136),h=(n.n(m),function(){function t(t,e){this.navCtrl=t,this.animationsProvider=e,this.animation="bounceIn",this._animationType=new m.BehaviorSubject(null),this.animationType=this._animationType,this._animationType.next("bounceIn")}return t.prototype.ionViewDidEnter=function(){this._getAnimations()},t.prototype._getAnimations=function(){var t=this;this.animationsProvider.getAnimations().then(function(e){t.animations=e})},t.prototype.doAnimate=function(t){var e=this;this._animationType.next(""),setTimeout(function(){e._animationType.next(t)},300)},t}()),g=(n(0),n(60),n(56),n(55),function(){return function(t,e,n){this.rootPage=h,t.ready().then(function(){e.styleDefault(),n.hide()})}}()),d=(n(17),n(89),n(0),n(60),n(55),n(56),n(76),function(){return function(){}}()),b=n(0),S=n(143),P=n(47),O=n(4),x=n(18),A=n(7),E=n(1),w=n(3),v=n(6),R=n(22),I=n(13),D=n(9),C=n(37),k=n(56),L=n(55),M=[],j=b._2({encapsulation:2,styles:M,data:{}}),T=b._1("ng-component",g,function(t){return b._26(0,[(t()(),b._4(0,null,null,1,"ng-component",[],null,null,null,i,j)),b._3(49152,null,0,g,[w.a,k.a,L.a],null,null)],null,null)},{},{},[]),F=n(0),H=n(48),N=n(10),B=n(144),z=n(36),G=n(1),U=n(3),X=n(9),V=n(7),K=n(26),q=n(4),$=n(18),Z=n(66),Y=n(64),J=n(65),Q=n(110),W=n(19),tt=n(14),et=n(29),nt=n(46),it=n(145),ot=n(52),st=n(13),rt=n(20),lt=n(28),at=n(38),_t=n(16),pt=n(27),ut=n(68),yt=n(146),ft=n(23),ct=n(147),mt=n(54),ht=n(30),gt=n(70),dt=n(69),bt=[],St=F._2({encapsulation:2,styles:bt,data:{animation:[{name:"animationType",definitions:[{type:1,expr:"* => bounceIn",animation:[{type:6,styles:{"animation-timing-function":"cubic-bezier(0.215, 0.610, 0.355, 1.000)",transition:"opacity ease-in-out",transform:"scale3d(.3, .3, .3)",opacity:0}},{type:4,styles:{type:5,steps:[{type:6,styles:{opacity:.4,transform:"scale3d(1.1, 1.1, 1.1)",offset:.2}},{type:6,styles:{opacity:.8,transform:"scale3d(.9, .9, .9)",offset:.4}},{type:6,styles:{opacity:1,transform:"scale3d(1.03, 1.03, 1.03)",offset:.6}},{type:6,styles:{transform:"scale3d(.97, .97, .97)",offset:.8}},{type:6,styles:{transform:"scale3d(1, 1, 1)",offset:1}}]},timings:"600ms"}]},{type:1,expr:"* => bounceInUp",animation:[{type:6,styles:{"animation-timing-function":"cubic-bezier(0.215, 0.610, 0.355, 1.000)",transition:"opacity ease-in-out",transform:"translate3d(0, 3000px, 0)",opacity:0}},{type:4,styles:{type:5,steps:[{type:6,styles:{opacity:1,transform:"translate3d(0, -20px, 0)",offset:.6}},{type:6,styles:{transform:"translate3d(0, 10px, 0)",offset:.75}},{type:6,styles:{transform:"translate3d(0, -5px, 0)",offset:.9}},{type:6,styles:{transform:"translate3d(0, 0, 0)",offset:1}}]},timings:"600ms"}]},{type:1,expr:"* => bounceInRight",animation:[{type:6,styles:{"animation-timing-function":"cubic-bezier(0.215, 0.610, 0.355, 1.000)",transition:"opacity ease-in-out",transform:"translate3d(3000px, 0, 0)",opacity:0}},{type:4,styles:{type:5,steps:[{type:6,styles:{opacity:1,transform:"translate3d(-25px, 0, 0)",offset:.6}},{type:6,styles:{transform:"translate3d(10px, 0, 0)",offset:.75}},{type:6,styles:{transform:"translate3d(-5px, 0, 0)",offset:.9}},{type:6,styles:{transform:"none",offset:1}}]},timings:"600ms"}]},{type:1,expr:"* => bounceInDown",animation:[{type:6,styles:{"animation-timing-function":"cubic-bezier(0.215, 0.610, 0.355, 1.000)",transition:"opacity ease-in-out",transform:"translate3d(0, -3000px, 0)",opacity:0}},{type:4,styles:{type:5,steps:[{type:6,styles:{opacity:1,transform:"translate3d(0, 25px, 0)",offset:.6}},{type:6,styles:{transform:"translate3d(0, -10px, 0)",offset:.75}},{type:6,styles:{transform:"translate3d(0, 5px, 0)",offset:.9}},{type:6,styles:{transform:"translate3d(0, 0, 0)",offset:1}}]},timings:"600ms"}]},{type:1,expr:"* => bounceInLeft",animation:[{type:6,styles:{"animation-timing-function":"cubic-bezier(0.215, 0.610, 0.355, 1.000)",transition:"opacity ease-in-out",transform:"translate3d(-3000px, 0, 0)",opacity:0}},{type:4,styles:{type:5,steps:[{type:6,styles:{opacity:1,transform:"translate3d(25px, 0, 0)",offset:.6}},{type:6,styles:{transform:"translate3d(-10px, 0, 0)",offset:.75}},{type:6,styles:{transform:"translate3d(5px, 0, 0)",offset:.9}},{type:6,styles:{transform:"none",offset:1}}]},timings:"600ms"}]},{type:1,expr:"* => fadeIn",animation:[{type:6,styles:{transition:"opacity ease-in-out",opacity:0}},{type:4,styles:{type:6,styles:{transition:"opacity ease-in-out",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => fadeInUp",animation:[{type:6,styles:{transition:"opacity ease-in-out",transform:"translate3d(0, 100%, 0)",opacity:0}},{type:4,styles:{type:6,styles:{transition:"opacity ease-in-out",transform:"none",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => fadeInUpBig",animation:[{type:6,styles:{transition:"opacity ease-in-out",transform:"translate3d(0, 2000px, 0)",opacity:0}},{type:4,styles:{type:6,styles:{transition:"opacity ease-in-out",transform:"none",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => fadeInRight",animation:[{type:6,styles:{transition:"opacity ease-in-out",transform:"translate3d(100%, 0, 0)",opacity:0}},{type:4,styles:{type:6,styles:{transition:"opacity ease-in-out",transform:"none",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => fadeInRightBig",animation:[{type:6,styles:{transition:"opacity ease-in-out",transform:"translate3d(2000px, 0, 0)",opacity:0}},{type:4,styles:{type:6,styles:{transition:"opacity ease-in-out",transform:"none",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => fadeInDown",animation:[{type:6,styles:{transition:"opacity ease-in-out",transform:"translate3d(0, -100%, 0)",opacity:0}},{type:4,styles:{type:6,styles:{transition:"opacity ease-in-out",transform:"none",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => fadeInDownBig",animation:[{type:6,styles:{transition:"opacity ease-in-out",transform:"translate3d(0, -2000px, 0)",opacity:0}},{type:4,styles:{type:6,styles:{transition:"opacity ease-in-out",transform:"none",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => fadeInLeft",animation:[{type:6,styles:{transition:"opacity ease-in-out",transform:"translate3d(-100%, 0, 0)",opacity:0}},{type:4,styles:{type:6,styles:{transition:"opacity ease-in-out",transform:"none",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => fadeInLeftBig",animation:[{type:6,styles:{transition:"opacity ease-in-out",transform:"translate3d(-2000px, 0, 0)",opacity:0}},{type:4,styles:{type:6,styles:{transition:"opacity ease-in-out",transform:"none",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => flip",animation:[{type:6,styles:{transform:"perspective(400px) rotate3d(0, 1, 0, -360deg)","animation-timing-function":"ease-out"}},{type:4,styles:{type:5,steps:[{type:6,styles:{transform:"perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg)","animation-timing-function":"ease-out",offset:.4}},{type:6,styles:{transform:"perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg)","animation-timing-function":"ease-out",offset:.5}},{type:6,styles:{transform:"perspective(400px) scale3d(.95, .95, .95)","animation-timing-function":"ease-out",offset:.8}},{type:6,styles:{transform:"perspective(400px)",offset:1}}]},timings:"600ms"}]},{type:1,expr:"* => flipInX",animation:[{type:6,styles:{transform:"perspective(400px) rotate3d(1, 0, 0, 90deg)","animation-timing-function":"ease-out",opacity:0}},{type:4,styles:{type:5,steps:[{type:6,styles:{transform:"perspective(400px) rotate3d(1, 0, 0, -20deg)","animation-timing-function":"ease-out",offset:.4}},{type:6,styles:{transform:"perspective(400px) rotate3d(1, 0, 0, 10deg)",opacity:1,offset:.6}},{type:6,styles:{transform:"perspective(400px) rotate3d(1, 0, 0, -5deg)",offset:.8}},{type:6,styles:{transform:"perspective(400px)",offset:1}}]},timings:"600ms"}]},{type:1,expr:"* => flipInY",animation:[{type:6,styles:{transform:"perspective(400px) rotate3d(0, 1, 0, 90deg)","animation-timing-function":"ease-out",opacity:0}},{type:4,styles:{type:5,steps:[{type:6,styles:{transform:"perspective(400px) rotate3d(0, 1, 0, -20deg)","animation-timing-function":"ease-out",offset:.4}},{type:6,styles:{transform:"perspective(400px) rotate3d(0, 1, 0, 10deg)",opacity:1,offset:.6}},{type:6,styles:{transform:"perspective(400px) rotate3d(0, 1, 0, -5deg)",offset:.8}},{type:6,styles:{transform:"perspective(400px)",offset:1}}]},timings:"600ms"}]},{type:1,expr:"* => flipOutX",animation:[{type:6,styles:{transform:"perspective(400px)",opacity:1}},{type:4,styles:{type:5,steps:[{type:6,styles:{transform:"perspective(400px) rotate3d(1, 0, 0, -20deg)",opacity:1,offset:.3}},{type:6,styles:{transform:"perspective(400px) rotate3d(1, 0, 0, 90deg)",opacity:0,offset:1}}]},timings:"600ms"}]},{type:1,expr:"* => flipOutY",animation:[{type:6,styles:{transform:"perspective(400px)",opacity:1}},{type:4,styles:{type:5,steps:[{type:6,styles:{transform:"perspective(400px) rotate3d(0, 1, 0, -15deg)",opacity:1,offset:.3}},{type:6,styles:{transform:"perspective(400px) rotate3d(0, 1, 0, 90deg)",opacity:0,offset:1}}]},timings:"600ms"}]},{type:1,expr:"* => lightSpeedIn",animation:[{type:6,styles:{transform:"translate3d(100%, 0, 0) skewX(-30deg)",opacity:0}},{type:4,styles:{type:5,steps:[{type:6,styles:{transform:"skewX(20deg)",opacity:1,offset:.6}},{type:6,styles:{transform:"skewX(-5deg)",offset:.8}},{type:6,styles:{transform:"none",offset:1}}]},timings:"1000ms"}]},{type:1,expr:"* => lightSpeedOut",animation:[{type:6,styles:{opacity:1}},{type:4,styles:{type:6,styles:{"animation-timing-function":"ease-in",transform:"translate3d(100%, 0, 0) skewX(30deg)",opacity:0}},timings:"1000ms"}]},{type:1,expr:"* => rotateIn",animation:[{type:6,styles:{"transform-origin":"center",transform:"rotate3d(0, 0, 1, -200deg)",opacity:0}},{type:4,styles:{type:6,styles:{"transform-origin":"center",transform:"none",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => rotateInDownLeft",animation:[{type:6,styles:{"transform-origin":"left bottom",transform:"rotate3d(0, 0, 1, -45deg)",opacity:0}},{type:4,styles:{type:6,styles:{"transform-origin":"left bottom",transform:"none",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => rotateInDownRight",animation:[{type:6,styles:{"transform-origin":"right bottom",transform:"rotate3d(0, 0, 1, 45deg)",opacity:0}},{type:4,styles:{type:6,styles:{"transform-origin":"right bottom",transform:"none",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => rotateInUpLeft",animation:[{type:6,styles:{"transform-origin":"left bottom",transform:"rotate3d(0, 0, 1, 45deg)",opacity:0}},{type:4,styles:{type:6,styles:{"transform-origin":"left bottom",transform:"none",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => rotateInUpRight",animation:[{type:6,styles:{"transform-origin":"right bottom",transform:"rotate3d(0, 0, 1, -90deg)",opacity:0}},{type:4,styles:{type:6,styles:{"transform-origin":"right bottom",transform:"none",opacity:1}},timings:"600ms"}]},{type:1,expr:"* => rotateOut",animation:[{type:6,styles:{"transform-origin":"center",opacity:1}},{type:4,styles:{type:6,styles:{"transform-origin":"center",transform:"rotate3d(0, 0, 1, 200deg)",opacity:0}},timings:"600ms"}]},{type:1,expr:"* => rotateOutDownLeft",animation:[{type:6,styles:{"transform-origin":"left bottom",opacity:1}},{type:4,styles:{type:6,styles:{"transform-origin":"left bottom",transform:"rotate3d(0, 0, 1, 45deg)",opacity:0}},timings:"600ms"}]},{type:1,expr:"* => rotateOutDownRight",animation:[{type:6,styles:{"transform-origin":"right bottom",opacity:1}},{type:4,styles:{type:6,styles:{"transform-origin":"right bottom",transform:"rotate3d(0, 0, 1, -45deg)",opacity:0}},timings:"600ms"}]},{type:1,expr:"* => rotateOutUpLeft",animation:[{type:6,styles:{"transform-origin":"left bottom",opacity:1}},{type:4,styles:{type:6,styles:{"transform-origin":"left bottom",transform:"rotate3d(0, 0, 1, -45deg)",opacity:0}},timings:"600ms"}]},{type:1,expr:"* => rotateOutUpRight",animation:[{type:6,styles:{"transform-origin":"right bottom",opacity:1}},{type:4,styles:{type:6,styles:{"transform-origin":"right bottom",transform:"rotate3d(0, 0, 1, 90deg)",opacity:0}},timings:"600ms"}]},{type:1,expr:"* => slideInUp",animation:[{type:6,styles:{transform:"translate3d(0, 100%, 0)",visibility:"visible"}},{type:4,styles:{type:6,styles:{transform:"translate3d(0, 0, 0)"}},timings:"600ms"}]},{type:1,expr:"* => slideInDown",animation:[{type:6,styles:{transform:"translate3d(0, -100%, 0)",visibility:"visible"}},{type:4,styles:{type:6,styles:{transform:"translate3d(0, 0, 0)"}},timings:"600ms"}]},{type:1,expr:"* => slideInLeft",animation:[{type:6,styles:{transform:"translate3d(-100%, 0, 0)",visibility:"visible"}},{type:4,styles:{type:6,styles:{transform:"translate3d(0, 0, 0)"}},timings:"600ms"}]},{type:1,expr:"* => slideInRight",animation:[{type:6,styles:{transform:"translate3d(100, 0, 0)",visibility:"visible"}},{type:4,styles:{type:6,styles:{transform:"translate3d(0, 0, 0)"}},timings:"600ms"}]},{type:1,expr:"* => slideOutUp",animation:[{type:6,styles:{transform:"translate3d(0, 0, 0)"}},{type:4,styles:{type:6,styles:{visibility:"hidden",transform:"translate3d(0, -100%, 0)"}},timings:"600ms"}]},{type:1,expr:"* => slideOutDown",animation:[{type:6,styles:{transform:"translate3d(0, 0, 0)"}},{type:4,styles:{type:6,styles:{visibility:"hidden",transform:"translate3d(0, 100%, 0)"}},timings:"600ms"}]},{type:1,expr:"* => slideOutLeft",animation:[{type:6,styles:{transform:"translate3d(0, 0, 0)"}},{type:4,styles:{type:6,styles:{visibility:"hidden",transform:"translate3d(-100%, 0, 0)"}},timings:"600ms"}]},{type:1,expr:"* => slideOutRight",animation:[{type:6,styles:{transform:"translate3d(0, 0, 0)"}},{type:4,styles:{type:6,styles:{visibility:"hidden",transform:"translate3d(100%, 0, 0)"}},timings:"600ms"}]}]}]}}),Pt=F._1("page-home",h,function(t){return F._26(0,[(t()(),F._4(0,null,null,1,"page-home",[],null,null,null,l,St)),F._3(49152,null,0,h,[$.a,f],null,null)],null,null)},{},{},[]),Ot=n(0),xt=n(10),At=n(106),Et=n(9),wt=n(33),vt=n(7),Rt=n(6),It=n(67),Dt=n(17),Ct=n(89),kt=n(76),Lt=n(20),Mt=n(107),jt=n(75),Tt=n(72),Ft=n(14),Ht=n(49),Nt=n(26),Bt=n(71),zt=n(22),Gt=n(56),Ut=n(55),Xt=n(138),Vt=n(139),Kt=n(140),qt=n(141),$t=n(142),Zt=n(41),Yt=n(13),Jt=n(73),Qt=n(3),Wt=n(1),te=n(51),ee=n(74),ne=n(90),ie=n(32),oe=this&&this.__extends||function(){var t=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var n in e)e.hasOwnProperty(n)&&(t[n]=e[n])};return function(e,n){function i(){this.constructor=e}t(e,n),e.prototype=null===n?Object.create(n):(i.prototype=n.prototype,new i)}}(),se=function(t){function e(e){return t.call(this,e,[Xt.a,Vt.a,Kt.a,qt.a,$t.a,T,Pt],[Kt.a])||this}return oe(e,t),Object.defineProperty(e.prototype,"_LOCALE_ID_27",{get:function(){return null==this.__LOCALE_ID_27&&(this.__LOCALE_ID_27=Ot._15(this.parent.get(Ot.u,null))),this.__LOCALE_ID_27},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_NgLocalization_28",{get:function(){return null==this.__NgLocalization_28&&(this.__NgLocalization_28=new xt.j(this._LOCALE_ID_27)),this.__NgLocalization_28},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_APP_ID_29",{get:function(){return null==this.__APP_ID_29&&(this.__APP_ID_29=Ot._6()),this.__APP_ID_29},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_IterableDiffers_30",{get:function(){return null==this.__IterableDiffers_30&&(this.__IterableDiffers_30=Ot._12()),this.__IterableDiffers_30},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_KeyValueDiffers_31",{get:function(){return null==this.__KeyValueDiffers_31&&(this.__KeyValueDiffers_31=Ot._14()),this.__KeyValueDiffers_31},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_DomSanitizer_32",{get:function(){return null==this.__DomSanitizer_32&&(this.__DomSanitizer_32=new Dt.s(this.parent.get(Dt.b))),this.__DomSanitizer_32},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Sanitizer_33",{get:function(){return null==this.__Sanitizer_33&&(this.__Sanitizer_33=this._DomSanitizer_32),this.__Sanitizer_33},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_HAMMER_GESTURE_CONFIG_34",{get:function(){return null==this.__HAMMER_GESTURE_CONFIG_34&&(this.__HAMMER_GESTURE_CONFIG_34=new jt.a),this.__HAMMER_GESTURE_CONFIG_34},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_EVENT_MANAGER_PLUGINS_35",{get:function(){return null==this.__EVENT_MANAGER_PLUGINS_35&&(this.__EVENT_MANAGER_PLUGINS_35=[new Dt.l(this.parent.get(Dt.b)),new Dt.p(this.parent.get(Dt.b)),new Dt.o(this.parent.get(Dt.b),this._HAMMER_GESTURE_CONFIG_34)]),this.__EVENT_MANAGER_PLUGINS_35},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_EventManager_36",{get:function(){return null==this.__EventManager_36&&(this.__EventManager_36=new Dt.e(this._EVENT_MANAGER_PLUGINS_35,this.parent.get(Ot.y))),this.__EventManager_36},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵDomSharedStylesHost_37",{get:function(){return null==this.__ɵDomSharedStylesHost_37&&(this.__ɵDomSharedStylesHost_37=new Dt.n(this.parent.get(Dt.b))),this.__ɵDomSharedStylesHost_37},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵDomRendererFactory2_38",{get:function(){return null==this.__ɵDomRendererFactory2_38&&(this.__ɵDomRendererFactory2_38=new Dt.m(this._EventManager_36,this._ɵDomSharedStylesHost_37)),this.__ɵDomRendererFactory2_38},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_AnimationDriver_39",{get:function(){return null==this.__AnimationDriver_39&&(this.__AnimationDriver_39=Ct.c()),this.__AnimationDriver_39},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵAnimationStyleNormalizer_40",{get:function(){return null==this.__ɵAnimationStyleNormalizer_40&&(this.__ɵAnimationStyleNormalizer_40=Ct.d()),this.__ɵAnimationStyleNormalizer_40},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵAnimationEngine_41",{get:function(){return null==this.__ɵAnimationEngine_41&&(this.__ɵAnimationEngine_41=new Ct.b(this._AnimationDriver_39,this._ɵAnimationStyleNormalizer_40)),this.__ɵAnimationEngine_41},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_RendererFactory2_42",{get:function(){return null==this.__RendererFactory2_42&&(this.__RendererFactory2_42=Ct.e(this._ɵDomRendererFactory2_38,this._ɵAnimationEngine_41,this.parent.get(Ot.y))),this.__RendererFactory2_42},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵSharedStylesHost_43",{get:function(){return null==this.__ɵSharedStylesHost_43&&(this.__ɵSharedStylesHost_43=this._ɵDomSharedStylesHost_37),this.__ɵSharedStylesHost_43},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Testability_44",{get:function(){return null==this.__Testability_44&&(this.__Testability_44=new Ot.M(this.parent.get(Ot.y))),this.__Testability_44},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Meta_45",{get:function(){return null==this.__Meta_45&&(this.__Meta_45=new Dt.h(this.parent.get(Dt.b))),this.__Meta_45},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Title_46",{get:function(){return null==this.__Title_46&&(this.__Title_46=new Dt.j(this.parent.get(Dt.b))),this.__Title_46},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_BrowserXhr_47",{get:function(){return null==this.__BrowserXhr_47&&(this.__BrowserXhr_47=new kt.c),this.__BrowserXhr_47},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ResponseOptions_48",{get:function(){return null==this.__ResponseOptions_48&&(this.__ResponseOptions_48=new kt.b),this.__ResponseOptions_48},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_XSRFStrategy_49",{get:function(){return null==this.__XSRFStrategy_49&&(this.__XSRFStrategy_49=kt.j()),this.__XSRFStrategy_49},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_XHRBackend_50",{get:function(){return null==this.__XHRBackend_50&&(this.__XHRBackend_50=new kt.h(this._BrowserXhr_47,this._ResponseOptions_48,this._XSRFStrategy_49)),this.__XHRBackend_50},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_RequestOptions_51",{get:function(){return null==this.__RequestOptions_51&&(this.__RequestOptions_51=new kt.a),this.__RequestOptions_51},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Http_52",{get:function(){return null==this.__Http_52&&(this.__Http_52=kt.k(this._XHRBackend_50,this._RequestOptions_51)),this.__Http_52},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵi_53",{get:function(){return null==this.__ɵi_53&&(this.__ɵi_53=new Lt.k),this.__ɵi_53},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_FormBuilder_54",{get:function(){return null==this.__FormBuilder_54&&(this.__FormBuilder_54=new Lt.c),this.__FormBuilder_54},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Events_59",{get:function(){return null==this.__Events_59&&(this.__Events_59=new Tt.a),this.__Events_59},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Form_60",{get:function(){return null==this.__Form_60&&(this.__Form_60=new Ft.a),this.__Form_60},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Haptic_61",{get:function(){return null==this.__Haptic_61&&(this.__Haptic_61=new Ht.a(this._Platform_4)),this.__Haptic_61},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Keyboard_62",{get:function(){return null==this.__Keyboard_62&&(this.__Keyboard_62=new Nt.a(this._Config_5,this._Platform_4,this.parent.get(Ot.y),this._DomController_6)),this.__Keyboard_62},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_LocationStrategy_64",{get:function(){return null==this.__LocationStrategy_64&&(this.__LocationStrategy_64=Mt.b(this.parent.get(xt.p),this._APP_BASE_HREF_56,this._Config_5)),this.__LocationStrategy_64},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Location_65",{get:function(){return null==this.__Location_65&&(this.__Location_65=new xt.e(this._LocationStrategy_64)),this.__Location_65},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_UrlSerializer_66",{get:function(){return null==this.__UrlSerializer_66&&(this.__UrlSerializer_66=Zt.d(this._DeepLinkConfigToken_10)),this.__UrlSerializer_66},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_DeepLinker_67",{get:function(){return null==this.__DeepLinker_67&&(this.__DeepLinker_67=Yt.b(this._App_8,this._UrlSerializer_66,this._Location_65,this._ModuleLoader_13,this.componentFactoryResolver)),this.__DeepLinker_67},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_TapClick_71",{get:function(){return null==this.__TapClick_71&&(this.__TapClick_71=new Bt.a(this._Config_5,this._Platform_4,this._DomController_6,this._App_8,this._GestureController_9)),this.__TapClick_71},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_TransitionController_73",{get:function(){return null==this.__TransitionController_73&&(this.__TransitionController_73=new zt.a(this._Platform_4,this._Config_5)),this.__TransitionController_73},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_StatusBar_74",{get:function(){return null==this.__StatusBar_74&&(this.__StatusBar_74=new Gt.a),this.__StatusBar_74},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_SplashScreen_75",{get:function(){return null==this.__SplashScreen_75&&(this.__SplashScreen_75=new Ut.a),this.__SplashScreen_75},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_AnimationsProvider_76",{get:function(){return null==this.__AnimationsProvider_76&&(this.__AnimationsProvider_76=new f(this._Http_52)),this.__AnimationsProvider_76},enumerable:!0,configurable:!0}),e.prototype.createInternal=function(){return this._CommonModule_0=new xt.c,this._ErrorHandler_1=new At.a,this._ConfigToken_2=null,this._PlatformConfigToken_3=Jt.b(),this._Platform_4=Qt.b(this.parent.get(Dt.b),this._PlatformConfigToken_3,this.parent.get(Ot.y)),this._Config_5=Wt.c(this._ConfigToken_2,this._Platform_4),this._DomController_6=new Et.a(this._Platform_4),this._MenuController_7=new wt.a,this._App_8=new vt.a(this._Config_5,this._Platform_4,this._MenuController_7),this._GestureController_9=new Rt.f(this._App_8),this._DeepLinkConfigToken_10=null,this._Compiler_11=new Ot.i,this._NgModuleLoader_12=new It.a(this._Compiler_11),this._ModuleLoader_13=te.c(this._NgModuleLoader_12,this),this._APP_INITIALIZER_14=[Ot._18,Dt.r(this.parent.get(Dt.i,null),this.parent.get(Ot.x,null)),ee.a(this._Config_5),Tt.b(this._Platform_4,this._DomController_6),Bt.b(this._Config_5,this._Platform_4,this._DomController_6,this._App_8,this._GestureController_9),te.d(this._Config_5,this._DeepLinkConfigToken_10,this._ModuleLoader_13,this.parent.get(Ot.y))],this._ApplicationInitStatus_15=new Ot.d(this._APP_INITIALIZER_14),this._ɵf_16=new Ot._5(this.parent.get(Ot.y),this.parent.get(Ot.Y),this,this._ErrorHandler_1,this.componentFactoryResolver,this._ApplicationInitStatus_15),this._ApplicationRef_17=this._ɵf_16,this._ApplicationModule_18=new Ot.e(this._ApplicationRef_17),this._BrowserModule_19=new Dt.a(this.parent.get(Dt.a,null)),this._BrowserAnimationsModule_20=new Ct.a,this._HttpModule_21=new kt.e,this._ɵba_22=new Lt.j,this._FormsModule_23=new Lt.d,this._ReactiveFormsModule_24=new Lt.i,this._IonicModule_25=new Mt.a,this._AppModule_26=new d,this._AppRootToken_55=g,this._APP_BASE_HREF_56="/",this._AppModule_26},e.prototype.getInternal=function(t,e){return t===xt.c?this._CommonModule_0:t===Ot.l?this._ErrorHandler_1:t===Wt.b?this._ConfigToken_2:t===Jt.a?this._PlatformConfigToken_3:t===Qt.a?this._Platform_4:t===Wt.a?this._Config_5:t===Et.a?this._DomController_6:t===wt.a?this._MenuController_7:t===vt.a?this._App_8:t===Rt.f?this._GestureController_9:t===Zt.a?this._DeepLinkConfigToken_10:t===Ot.i?this._Compiler_11:t===It.a?this._NgModuleLoader_12:t===te.b?this._ModuleLoader_13:t===Ot.c?this._APP_INITIALIZER_14:t===Ot.d?this._ApplicationInitStatus_15:t===Ot._5?this._ɵf_16:t===Ot.f?this._ApplicationRef_17:t===Ot.e?this._ApplicationModule_18:t===Dt.a?this._BrowserModule_19:t===Ct.a?this._BrowserAnimationsModule_20:t===kt.e?this._HttpModule_21:t===Lt.j?this._ɵba_22:t===Lt.d?this._FormsModule_23:t===Lt.i?this._ReactiveFormsModule_24:t===Mt.a?this._IonicModule_25:t===d?this._AppModule_26:t===Ot.u?this._LOCALE_ID_27:t===xt.k?this._NgLocalization_28:t===Ot.b?this._APP_ID_29:t===Ot.s?this._IterableDiffers_30:t===Ot.t?this._KeyValueDiffers_31:t===Dt.c?this._DomSanitizer_32:t===Ot.H?this._Sanitizer_33:t===Dt.f?this._HAMMER_GESTURE_CONFIG_34:t===Dt.d?this._EVENT_MANAGER_PLUGINS_35:t===Dt.e?this._EventManager_36:t===Dt.n?this._ɵDomSharedStylesHost_37:t===Dt.m?this._ɵDomRendererFactory2_38:t===ne.a?this._AnimationDriver_39:t===ne.c?this._ɵAnimationStyleNormalizer_40:t===ne.b?this._ɵAnimationEngine_41:t===Ot.F?this._RendererFactory2_42:t===Dt.q?this._ɵSharedStylesHost_43:t===Ot.M?this._Testability_44:t===Dt.h?this._Meta_45:t===Dt.j?this._Title_46:t===kt.c?this._BrowserXhr_47:t===kt.g?this._ResponseOptions_48:t===kt.i?this._XSRFStrategy_49:t===kt.h?this._XHRBackend_50:t===kt.f?this._RequestOptions_51:t===kt.d?this._Http_52:t===Lt.k?this._ɵi_53:t===Lt.c?this._FormBuilder_54:t===ie.a?this._AppRootToken_55:t===xt.a?this._APP_BASE_HREF_56:t===Tt.a?this._Events_59:t===Ft.a?this._Form_60:t===Ht.a?this._Haptic_61:t===Nt.a?this._Keyboard_62:t===xt.f?this._LocationStrategy_64:t===xt.e?this._Location_65:t===Zt.b?this._UrlSerializer_66:t===Yt.a?this._DeepLinker_67:t===Bt.a?this._TapClick_71:t===zt.a?this._TransitionController_73:t===Gt.a?this._StatusBar_74:t===Ut.a?this._SplashScreen_75:t===f?this._AnimationsProvider_76:e},e.prototype.destroyInternal=function(){this._ɵf_16.ngOnDestroy(),this.__ɵDomSharedStylesHost_37&&this._ɵDomSharedStylesHost_37.ngOnDestroy()},e}(Ot.Z),re=new Ot.v(se,d),le=n(17),ae=n(0);Object(ae.S)(),Object(le.k)().bootstrapModuleFactory(re)},88:function(t,e){function n(t){return new Promise(function(e,n){n(new Error("Cannot find module '"+t+"'."))})}n.keys=function(){return[]},n.resolve=n,t.exports=n,n.id=88}},[111]);
+webpackJsonp([0],{
+
+/***/ 107:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	return new Promise(function(resolve, reject) { reject(new Error("Cannot find module '" + req + "'.")); });
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 107;
+
+/***/ }),
+
+/***/ 150:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	return new Promise(function(resolve, reject) { reject(new Error("Cannot find module '" + req + "'.")); });
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 150;
+
+/***/ }),
+
+/***/ 194:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_animations__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_animations_animations__ = __webpack_require__(195);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var HomePage = (function () {
+    function HomePage(navCtrl, animationsProvider) {
+        this.navCtrl = navCtrl;
+        this.animationsProvider = animationsProvider;
+        this.animation = 'bounceIn';
+        /** selected animation type */
+        this._animationType = new __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__["BehaviorSubject"](null);
+        this.animationType = this._animationType;
+        // default select value to animate
+        this._animationType.next('bounceIn');
+    }
+    HomePage.prototype.ionViewDidEnter = function () {
+        /** retrive list of possible animations */
+        this._getAnimations();
+    };
+    /** get list of animations from data.json */
+    HomePage.prototype._getAnimations = function () {
+        var _this = this;
+        this.animationsProvider.getAnimations()
+            .then(function (data) {
+            /** set animations to the response */
+            _this.animations = data;
+        });
+    };
+    HomePage.prototype.doAnimate = function (animationType) {
+        var _this = this;
+        this._animationType.next('');
+        setTimeout(function () {
+            _this._animationType.next(animationType);
+        }, 300);
+    };
+    return HomePage;
+}());
+HomePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-home',template:/*ion-inline-start:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/'<ion-content padding>\n  <h3 text-center>\n    Angular animations within the Ionic framework.\n  </h3>\n\n  <ion-row center>\n    <!-- Animation Selection -->\n    <ion-card color="light">\n      <ion-card-content>\n        <ion-item color="transparent">\n          <ion-select [(ngModel)]="animation" margin-right>\n            <ion-label>Select Animation</ion-label>\n            <span *ngFor="let animation of animations">\n              <p>{{animation?.type}}</p>\n              <ion-option *ngFor="let option of animation.options" [value]="option.name">{{option?.name}}</ion-option>\n            </span>\n          </ion-select>\n          <button ion-button \n            item-right \n            large color="primary" \n            (click)="doAnimate(animation)">\n              Animate\n          </button>\n          <button ion-button clear icon-only large item-right>\n            <ion-icon name="code"></ion-icon>\n          </button>\n        </ion-item>\n      </ion-card-content>\n    </ion-card>\n  </ion-row>\n\n  <!-- Text to Animate -->\n  <h1 text-center *ngIf="animationType | async" [@animationType]="animationType | async">\n    {{animation}}\n  </h1>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar color="primary">\n    <ion-title>By Sarah Tully. Based on the <a href="https://github.com/daneden/animate.css" ion-text color="light" target="_blank">animate.css</a> library.</ion-title>\n    <ion-buttons end>\n      <button ion-button clear>\n        View on Github\n      </button>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/,
+        animations: [
+            Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["h" /* trigger */])('animationType', [
+                /** Bounce **/
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => bounceIn', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',
+                        transition: 'opacity ease-in-out',
+                        transform: 'scale3d(.3, .3, .3)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["d" /* keyframes */])([
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ opacity: 0.4, transform: 'scale3d(1.1, 1.1, 1.1)', offset: 0.2 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ opacity: 0.8, transform: 'scale3d(.9, .9, .9)', offset: 0.4 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ opacity: 1, transform: 'scale3d(1.03, 1.03, 1.03)', offset: 0.6 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'scale3d(.97, .97, .97)', offset: 0.8 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'scale3d(1, 1, 1)', offset: 1.0 })
+                    ]))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => bounceInUp', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',
+                        transition: 'opacity ease-in-out',
+                        transform: 'translate3d(0, 3000px, 0)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["d" /* keyframes */])([
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ opacity: 1, transform: 'translate3d(0, -20px, 0)', offset: 0.6 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'translate3d(0, 10px, 0)', offset: 0.75 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'translate3d(0, -5px, 0)', offset: 0.9 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'translate3d(0, 0, 0)', offset: 1.0 })
+                    ]))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => bounceInRight', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',
+                        transition: 'opacity ease-in-out',
+                        transform: 'translate3d(3000px, 0, 0)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["d" /* keyframes */])([
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ opacity: 1, transform: 'translate3d(-25px, 0, 0)', offset: 0.6 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'translate3d(10px, 0, 0)', offset: 0.75 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'translate3d(-5px, 0, 0)', offset: 0.9 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'none', offset: 1.0 })
+                    ]))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => bounceInDown', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',
+                        transition: 'opacity ease-in-out',
+                        transform: 'translate3d(0, -3000px, 0)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["d" /* keyframes */])([
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ opacity: 1, transform: 'translate3d(0, 25px, 0)', offset: 0.6 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'translate3d(0, -10px, 0)', offset: 0.75 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'translate3d(0, 5px, 0)', offset: 0.9 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'translate3d(0, 0, 0)', offset: 1.0 })
+                    ]))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => bounceInLeft', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',
+                        transition: 'opacity ease-in-out',
+                        transform: 'translate3d(-3000px, 0, 0)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["d" /* keyframes */])([
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ opacity: 1, transform: 'translate3d(25px, 0, 0)', offset: 0.6 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'translate3d(-10px, 0, 0)', offset: 0.75 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'translate3d(5px, 0, 0)', offset: 0.9 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'none', offset: 1.0 })
+                    ]))
+                ]),
+                /** Fade **/
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => fadeIn', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => fadeInUp', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'translate3d(0, 100%, 0)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'none',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => fadeInUpBig', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'translate3d(0, 2000px, 0)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'none',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => fadeInRight', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'translate3d(100%, 0, 0)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'none',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => fadeInRightBig', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'translate3d(2000px, 0, 0)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'none',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => fadeInDown', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'translate3d(0, -100%, 0)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'none',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => fadeInDownBig', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'translate3d(0, -2000px, 0)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'none',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => fadeInLeft', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'translate3d(-100%, 0, 0)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'none',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => fadeInLeftBig', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'translate3d(-2000px, 0, 0)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transition: 'opacity ease-in-out',
+                        transform: 'none',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => flip', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'perspective(400px) rotate3d(0, 1, 0, -360deg)',
+                        'animation-timing-function': 'ease-out'
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["d" /* keyframes */])([
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg)',
+                            'animation-timing-function': 'ease-out', offset: 0.4 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg)',
+                            'animation-timing-function': 'ease-out', offset: 0.5 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px) scale3d(.95, .95, .95)',
+                            'animation-timing-function': 'ease-out', offset: 0.8 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px)', offset: 1.0 })
+                    ]))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => flipInX', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'perspective(400px) rotate3d(1, 0, 0, 90deg)',
+                        'animation-timing-function': 'ease-out',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["d" /* keyframes */])([
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px) rotate3d(1, 0, 0, -20deg)',
+                            'animation-timing-function': 'ease-out', offset: 0.4 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px) rotate3d(1, 0, 0, 10deg)', opacity: 1, offset: 0.6 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px) rotate3d(1, 0, 0, -5deg)', offset: 0.8 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px)', offset: 1.0 })
+                    ]))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => flipInY', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'perspective(400px) rotate3d(0, 1, 0, 90deg)',
+                        'animation-timing-function': 'ease-out',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["d" /* keyframes */])([
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px) rotate3d(0, 1, 0, -20deg)',
+                            'animation-timing-function': 'ease-out', offset: 0.4 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px) rotate3d(0, 1, 0, 10deg)', opacity: 1, offset: 0.6 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px) rotate3d(0, 1, 0, -5deg)', offset: 0.8 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px)', offset: 1.0 })
+                    ]))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => flipOutX', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'perspective(400px)',
+                        opacity: 1
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["d" /* keyframes */])([
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px) rotate3d(1, 0, 0, -20deg)', opacity: 1, offset: 0.3 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px) rotate3d(1, 0, 0, 90deg)', opacity: 0, offset: 1.0 })
+                    ]))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => flipOutY', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'perspective(400px)',
+                        opacity: 1
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["d" /* keyframes */])([
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px) rotate3d(0, 1, 0, -15deg)', opacity: 1, offset: 0.3 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'perspective(400px) rotate3d(0, 1, 0, 90deg)', opacity: 0, offset: 1.0 })
+                    ]))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => lightSpeedIn', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'translate3d(100%, 0, 0) skewX(-30deg)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('1000ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["d" /* keyframes */])([
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'skewX(20deg)', opacity: 1, offset: 0.6 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'skewX(-5deg)', offset: 0.8 }),
+                        Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'none', offset: 1.0 })
+                    ]))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => lightSpeedOut', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        opacity: 1
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('1000ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'animation-timing-function': 'ease-in',
+                        transform: 'translate3d(100%, 0, 0) skewX(30deg)',
+                        opacity: 0
+                    }))
+                ]),
+                /** Rotate */
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => rotateIn', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'center',
+                        transform: 'rotate3d(0, 0, 1, -200deg)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'center',
+                        transform: 'none',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => rotateInDownLeft', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'left bottom',
+                        transform: 'rotate3d(0, 0, 1, -45deg)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'left bottom',
+                        transform: 'none',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => rotateInDownRight', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'right bottom',
+                        transform: 'rotate3d(0, 0, 1, 45deg)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'right bottom',
+                        transform: 'none',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => rotateInUpLeft', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'left bottom',
+                        transform: 'rotate3d(0, 0, 1, 45deg)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'left bottom',
+                        transform: 'none',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => rotateInUpRight', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'right bottom',
+                        transform: 'rotate3d(0, 0, 1, -90deg)',
+                        opacity: 0
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'right bottom',
+                        transform: 'none',
+                        opacity: 1
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => rotateOut', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'center',
+                        opacity: 1
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'center',
+                        transform: 'rotate3d(0, 0, 1, 200deg)',
+                        opacity: 0
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => rotateOutDownLeft', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'left bottom',
+                        opacity: 1
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'left bottom',
+                        transform: 'rotate3d(0, 0, 1, 45deg)',
+                        opacity: 0
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => rotateOutDownRight', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'right bottom',
+                        opacity: 1
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'right bottom',
+                        transform: 'rotate3d(0, 0, 1, -45deg)',
+                        opacity: 0
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => rotateOutUpLeft', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'left bottom',
+                        opacity: 1
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'left bottom',
+                        transform: 'rotate3d(0, 0, 1, -45deg)',
+                        opacity: 0
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => rotateOutUpRight', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'right bottom',
+                        opacity: 1
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        'transform-origin': 'right bottom',
+                        transform: 'rotate3d(0, 0, 1, 90deg)',
+                        opacity: 0
+                    }))
+                ]),
+                /** Slide */
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => slideInUp', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'translate3d(0, 100%, 0)',
+                        visibility: 'visible'
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'translate3d(0, 0, 0)'
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => slideInDown', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'translate3d(0, -100%, 0)',
+                        visibility: 'visible'
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'translate3d(0, 0, 0)'
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => slideInLeft', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'translate3d(-100%, 0, 0)',
+                        visibility: 'visible'
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'translate3d(0, 0, 0)'
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => slideInRight', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'translate3d(100, 0, 0)',
+                        visibility: 'visible'
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'translate3d(0, 0, 0)'
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => slideOutUp', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'translate3d(0, 0, 0)'
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        visibility: 'hidden',
+                        transform: 'translate3d(0, -100%, 0)'
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => slideOutDown', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'translate3d(0, 0, 0)'
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        visibility: 'hidden',
+                        transform: 'translate3d(0, 100%, 0)'
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => slideOutLeft', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'translate3d(0, 0, 0)'
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        visibility: 'hidden',
+                        transform: 'translate3d(-100%, 0, 0)'
+                    }))
+                ]),
+                Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => slideOutRight', [
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        transform: 'translate3d(0, 0, 0)'
+                    }),
+                    Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* animate */])('600ms', Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
+                        visibility: 'hidden',
+                        transform: 'translate3d(100%, 0, 0)'
+                    }))
+                ]),
+            ])
+        ]
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__providers_animations_animations__["a" /* AnimationsProvider */]])
+], HomePage);
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 195:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AnimationsProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var AnimationsProvider = (function () {
+    function AnimationsProvider(http) {
+        this.http = http;
+    }
+    AnimationsProvider.prototype.getAnimations = function () {
+        var _this = this;
+        return new Promise(function (resolve) {
+            _this.http.get('assets/data/data.json')
+                .map(function (resp) { return JSON.parse(resp._body); })
+                .subscribe(function (data) {
+                console.log(data);
+                resolve(data);
+            });
+        });
+    };
+    return AnimationsProvider;
+}());
+AnimationsProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+], AnimationsProvider);
+
+//# sourceMappingURL=animations.js.map
+
+/***/ }),
+
+/***/ 197:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(215);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 215:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_animations__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_animations_animations__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_http__ = __webpack_require__(196);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */]
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
+            __WEBPACK_IMPORTED_MODULE_9__angular_http__["b" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */])
+        ],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["a" /* IonicApp */]],
+        entryComponents: [
+            __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */]
+        ],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__["a" /* SplashScreen */],
+            { provide: __WEBPACK_IMPORTED_MODULE_2__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["b" /* IonicErrorHandler */] },
+            __WEBPACK_IMPORTED_MODULE_8__providers_animations_animations__["a" /* AnimationsProvider */]
+        ]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 265:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(194);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        platform.ready().then(function () {
+            if (platform.is('cordova')) {
+                // Okay, so the platform is ready and our plugins are available.
+                // Here you can do any higher level native things you might need.
+                statusBar.styleDefault();
+                splashScreen.hide();
+            }
+        });
+    }
+    return MyApp;
+}());
+MyApp = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/Sarah/Apps/ng-ionic-animate/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/Sarah/Apps/ng-ionic-animate/src/app/app.html"*/
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _c || Object])
+], MyApp);
+
+var _a, _b, _c;
+//# sourceMappingURL=app.component.js.map
+
+/***/ })
+
+},[197]);
+//# sourceMappingURL=main.js.map
