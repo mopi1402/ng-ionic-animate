@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
-    "ionic:github": "ionic-app-scripts build browser --release --prod  --wwwDir docs --buildDir docs/build",
+    "github": "npm run ionic:build --release --prod  --wwwDir docs --buildDir docs/build",
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
