@@ -25,18 +25,31 @@
       @media (max-width: 767px) {
         font-size: 3.5rem;
       }
+      @media (max-height: 375px) {
+        padding-top: 14px;
+      }
       @media (max-height: 320px) {
         padding-top: 0;
         margin-bottom: 0;
+        margin-top: 11px;
+        font-size: 2.8rem;
       }
+    }
+    h2 {
+      font-family: 'Pacifico', cursive;
+      text-shadow: 0px 2px 1px rgba(0,0,0,0.2);
     }
     h3 {
       width: 100%;
+      font-weight: 300;
       padding-top: 20%;
       @media (max-height: 375px) {
         padding-top: 14px;
       }
-      font-weight: 300;
+      @media (max-height: 320px) {
+        font-size: 1.8rem;
+        padding-top: 7px;
+      }
     }
   }
 }

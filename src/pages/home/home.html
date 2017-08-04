@@ -1,10 +1,12 @@
 <ion-content padding no-header>
+  <h2 text-center ion-text color="primary">ng-ionic-animate</h2>
+
   <h3 text-center>
     Angular animations within the Ionic framework.
   </h3>
 
   <!-- Text to Animate -->
-  <h1 text-center ion-text color="primary" [@animationType]="animationType | async">
+  <h1 text-center ion-text color="secondary" [@animationType]="animationType | async">
     {{animation}}
   </h1>
 </ion-content>

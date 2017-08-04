@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
 .ion-ios-add:before {
   content: "\f102";
 }
@@ -27523,21 +27524,41 @@ ion-navbar.toolbar {
   }
 }
 
+@media (max-height: 375px) {
+  .ios page-home h1, .md page-home h1 {
+    padding-top: 14px;
+  }
+}
+
 @media (max-height: 320px) {
   .ios page-home h1, .md page-home h1 {
     padding-top: 0;
     margin-bottom: 0;
+    margin-top: 11px;
+    font-size: 2.8rem;
   }
+}
+
+.ios page-home h2, .md page-home h2 {
+  font-family: 'Pacifico', cursive;
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .ios page-home h3, .md page-home h3 {
   width: 100%;
-  padding-top: 20%;
   font-weight: 300;
+  padding-top: 20%;
 }
 
 @media (max-height: 375px) {
   .ios page-home h3, .md page-home h3 {
     padding-top: 14px;
+  }
+}
+
+@media (max-height: 320px) {
+  .ios page-home h3, .md page-home h3 {
+    font-size: 1.8rem;
+    padding-top: 7px;
   }
 }
