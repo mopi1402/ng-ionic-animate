@@ -86,7 +86,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/'<ion-content padding>\n  <h3 text-center>\n    Angular animations within the Ionic framework.\n  </h3>\n\n  <ion-row center>\n    <!-- Animation Selection -->\n    <ion-card color="light">\n      <ion-card-content>\n        <ion-item color="transparent">\n          <ion-select [(ngModel)]="animation" margin-right>\n            <ion-label>Select Animation</ion-label>\n            <span *ngFor="let animation of animations">\n              <p>{{animation?.type}}</p>\n              <ion-option *ngFor="let option of animation.options" [value]="option.name">{{option?.name}}</ion-option>\n            </span>\n          </ion-select>\n          <button ion-button \n            item-right \n            #animateButton\n            large color="primary" \n            (click)="doAnimate(animation)">\n              Animate\n          </button>\n          <button ion-button clear icon-only large item-right>\n            <ion-icon name="code"></ion-icon>\n          </button>\n        </ion-item>\n      </ion-card-content>\n    </ion-card>\n  </ion-row>\n\n  <!-- Text to Animate -->\n  <h1 text-center *ngIf="animationType | async" [@animationType]="animationType | async">\n    {{animation}}\n  </h1>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar color="primary">\n    <ion-title>By Sarah Tully. Based on the <a href="https://github.com/daneden/animate.css" ion-text color="light" target="_blank">animate.css</a> library.</ion-title>\n    <ion-buttons end>\n      <button ion-button clear>\n        View on Github\n      </button>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/,
+        selector: 'page-home',template:/*ion-inline-start:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/'<ion-content padding no-header>\n  <h3 text-center>\n    Angular animations within the Ionic framework.\n  </h3>\n\n  <!-- Text to Animate -->\n  <h1 text-center ion-text color="primary" [@animationType]="animationType | async">\n    {{animation}}\n  </h1>\n\n  <ion-footer no-border>\n    <ion-toolbar color="transparent">\n      <ion-row center id="select-animation-container">\n        <!-- Animation Selection -->\n        <ion-card color="light">\n          <ion-card-content>\n            <ion-item class="select-animation-item">\n              <ion-select [(ngModel)]="animation" margin-right>\n                <ion-label>Select Animation</ion-label>\n                <span *ngFor="let animation of animations">\n                  <p>{{animation?.type}}</p>\n                  <ion-option *ngFor="let option of animation.options" [value]="option.name">{{option?.name}}</ion-option>\n                </span>\n              </ion-select>\n              <button ion-button \n                item-end\n                icon-only\n                large\n                round\n                #animateButton\n                color="secondary" \n                (click)="doAnimate(animation)">\n                  <ion-icon name="color-wand"></ion-icon>\n              </button>\n            </ion-item>\n          </ion-card-content>\n        </ion-card>\n      </ion-row>\n    </ion-toolbar>\n  </ion-footer>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar color="primary">\n    <ion-title>By <a href="https://github.com/sarahtully" target="_blank" ion-text color="light">Sarah Tully</a>. Based on the <a href="https://github.com/daneden/animate.css" ion-text color="light" target="_blank">animate.css</a> library.</ion-title>\n    <ion-buttons end>\n      <a ion-button clear href="https://github.com/sarahtully/ng-ionic-animate" target="_blank">\n        View on Github\n      </a>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/,
         animations: [
             Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["h" /* trigger */])('animationType', [
                 /** Bounce **/
@@ -544,9 +544,10 @@ HomePage = __decorate([
             ])
         ]
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__providers_animations_animations__["a" /* AnimationsProvider */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__providers_animations_animations__["a" /* AnimationsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__providers_animations_animations__["a" /* AnimationsProvider */]) === "function" && _b || Object])
 ], HomePage);
 
+var _a, _b;
 //# sourceMappingURL=home.js.map
 
 /***/ }),
@@ -661,7 +662,9 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
             __WEBPACK_IMPORTED_MODULE_9__angular_http__["b" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */])
+            __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {
+                mode: 'md',
+            })
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["a" /* IonicApp */]],
         entryComponents: [

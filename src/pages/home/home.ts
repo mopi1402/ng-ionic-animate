@@ -508,5 +508,4 @@ export class HomePage {
       this._animationType.next(animationType);
     }, 300);
   }
-
 }

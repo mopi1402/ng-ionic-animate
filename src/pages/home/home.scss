@@ -1,16 +1,35 @@
 .ios, .md {
   page-home {
-    ion-content {
-      margin-top: 20%;
+    ion-select {
+      max-width: 100%;
+      width: 100%;
     }
+    ion-footer {
+      .toolbar-title-md,
+      .toolbar-title-ios {
+        font-size: 1.0rem;
+      }
+    }
+    [icon-only] ion-icon {
+      padding: 0 0.4em;
+    }
+    #select-animation-container {
+      .select-animation-item {
+        background-color: transparent;
+      }
+    }
+    
     h1 {
+      padding-top: 50px;
       font-size: 5rem;
       @media (max-width: 767px) {
-        font-size: 3rem;
+        font-size: 3.5rem;
       }
     }
     h3 {
       width: 100%;
+      padding-top: 20%;
+      font-weight: 300;
     }
   }
 }

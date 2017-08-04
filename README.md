@@ -40,8 +40,8 @@ import {
 } from '@angular/animations';
 ```
 
-#### heros example from angular's website:
-Below is the hero's animation example from [Angular's site](https://angular.io/guide/animations)
+#### Heroes example from angular's website:
+Below is the heroes animation example from [Angular's site](https://angular.io/guide/animations)
 
 ```typescript
 import {
@@ -93,7 +93,10 @@ export class HeroListBasicComponent {
 ### Safari Support
 In order to get animations to work in safari you must add the following polyfill:
 1. ```npm install web-animations-js --save```
-2. Under src > app > main.ts add: ```import 'web-animations-js/web-animations.min';``` 
+2. Under src > app > main.ts add the following import: 
+```typescript
+import 'web-animations-js/web-animations.min';
+``` 
 
 
 ## License

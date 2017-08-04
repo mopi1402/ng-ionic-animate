@@ -1,48 +1,52 @@
-<ion-content padding>
+<ion-content padding no-header>
   <h3 text-center>
     Angular animations within the Ionic framework.
   </h3>
 
-  <ion-row center>
-    <!-- Animation Selection -->
-    <ion-card color="light">
-      <ion-card-content>
-        <ion-item color="transparent">
-          <ion-select [(ngModel)]="animation" margin-right>
-            <ion-label>Select Animation</ion-label>
-            <span *ngFor="let animation of animations">
-              <p>{{animation?.type}}</p>
-              <ion-option *ngFor="let option of animation.options" [value]="option.name">{{option?.name}}</ion-option>
-            </span>
-          </ion-select>
-          <button ion-button 
-            item-right 
-            #animateButton
-            large color="primary" 
-            (click)="doAnimate(animation)">
-              Animate
-          </button>
-          <button ion-button clear icon-only large item-right>
-            <ion-icon name="code"></ion-icon>
-          </button>
-        </ion-item>
-      </ion-card-content>
-    </ion-card>
-  </ion-row>
-
   <!-- Text to Animate -->
-  <h1 text-center *ngIf="animationType | async" [@animationType]="animationType | async">
+  <h1 text-center ion-text color="primary" [@animationType]="animationType | async">
     {{animation}}
   </h1>
+
+  <ion-footer no-border>
+    <ion-toolbar color="transparent">
+      <ion-row center id="select-animation-container">
+        <!-- Animation Selection -->
+        <ion-card color="light">
+          <ion-card-content>
+            <ion-item class="select-animation-item">
+              <ion-select [(ngModel)]="animation" margin-right>
+                <ion-label>Select Animation</ion-label>
+                <span *ngFor="let animation of animations">
+                  <p>{{animation?.type}}</p>
+                  <ion-option *ngFor="let option of animation.options" [value]="option.name">{{option?.name}}</ion-option>
+                </span>
+              </ion-select>
+              <button ion-button 
+                item-end
+                icon-only
+                large
+                round
+                #animateButton
+                color="secondary" 
+                (click)="doAnimate(animation)">
+                  <ion-icon name="color-wand"></ion-icon>
+              </button>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-row>
+    </ion-toolbar>
+  </ion-footer>
 </ion-content>
 
 <ion-footer>
   <ion-toolbar color="primary">
-    <ion-title>By Sarah Tully. Based on the <a href="https://github.com/daneden/animate.css" ion-text color="light" target="_blank">animate.css</a> library.</ion-title>
+    <ion-title>By <a href="https://github.com/sarahtully" target="_blank" ion-text color="light">Sarah Tully</a>. Based on the <a href="https://github.com/daneden/animate.css" ion-text color="light" target="_blank">animate.css</a> library.</ion-title>
     <ion-buttons end>
-      <button ion-button clear>
+      <a ion-button clear href="https://github.com/sarahtully/ng-ionic-animate" target="_blank">
         View on Github
-      </button>
+      </a>
     </ion-buttons>
   </ion-toolbar>
 </ion-footer>
