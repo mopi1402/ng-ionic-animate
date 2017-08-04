@@ -25,10 +25,17 @@
       @media (max-width: 767px) {
         font-size: 3.5rem;
       }
+      @media (max-height: 320px) {
+        padding-top: 0;
+        margin-bottom: 0;
+      }
     }
     h3 {
       width: 100%;
       padding-top: 20%;
+      @media (max-height: 375px) {
+        padding-top: 14px;
+      }
       font-weight: 300;
     }
   }

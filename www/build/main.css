@@ -27523,8 +27523,21 @@ ion-navbar.toolbar {
   }
 }
 
+@media (max-height: 320px) {
+  .ios page-home h1, .md page-home h1 {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+}
+
 .ios page-home h3, .md page-home h3 {
   width: 100%;
   padding-top: 20%;
   font-weight: 300;
+}
+
+@media (max-height: 375px) {
+  .ios page-home h3, .md page-home h3 {
+    padding-top: 14px;
+  }
 }
