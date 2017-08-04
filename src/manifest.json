@@ -1,6 +1,6 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "ng-ionic-animate",
+  "short_name": "ng-ion-animate",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
