@@ -13,7 +13,6 @@ export class AnimationsProvider {
       this.http.get('assets/data/data.json')
         .map((resp: any) => JSON.parse(resp._body))
         .subscribe(data => {
-          console.log(data);
           resolve(data);
         });
     });
