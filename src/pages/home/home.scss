@@ -1,0 +1,16 @@
+.ios, .md {
+  page-home {
+    ion-content {
+      margin-top: 20%;
+    }
+    h1 {
+      font-size: 5rem;
+      @media (max-width: 767px) {
+        font-size: 3rem;
+      }
+    }
+    h3 {
+      width: 100%;
+    }
+  }
+}

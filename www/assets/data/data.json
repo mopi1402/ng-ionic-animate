@@ -1,0 +1,149 @@
+[
+  {
+    "type": "bounce",
+    "options": [
+      {
+        "name": "bounceIn"
+      },
+      {
+        "name": "bounceInUp"
+      },
+      {
+        "name": "bounceInRight"
+      },
+      {
+        "name": "bounceInDown"
+      },
+      {
+        "name": "bounceInLeft"
+      }
+    ]
+  },
+  {
+    "type": "fade",
+    "options": [
+      {
+        "name": "fadeIn"
+      },
+      {
+        "name": "fadeInUp"
+      },
+      {
+        "name": "fadeInUpBig"
+      },
+      {
+        "name": "fadeInRight"
+      },
+      {
+        "name": "fadeInRightBig"
+      },
+      {
+        "name": "fadeInDown"
+      },
+      {
+        "name": "fadeInDownBig"
+      },
+      {
+        "name": "fadeInLeft"
+      },
+      {
+        "name": "fadeInLeftBig"
+      }
+    ]
+  },
+  {
+    "type": "flip",
+    "options": [
+      {
+        "name": "flip"
+      },
+      {
+        "name": "flipInX"
+      },
+      {
+        "name": "flipInY"
+      },
+      {
+        "name": "flipOutX"
+      },
+      {
+        "name": "flipOutY"
+      }
+    ]
+  },
+  {
+    "type": "light",
+    "options": [
+      {
+        "name": "lightSpeedIn"
+      },
+      {
+        "name": "lightSpeedOut"
+      }
+    ]
+  },
+  {
+    "type": "rotate",
+    "options": [
+      {
+        "name": "rotateIn"
+      },
+      {
+        "name": "rotateInDownLeft"
+      },
+      {
+        "name": "rotateInDownRight"
+      },
+      {
+        "name": "rotateInUpLeft"
+      },
+      {
+        "name": "rotateInUpRight"
+      },
+      {
+        "name": "rotateOut"
+      },
+      {
+        "name": "rotateOutDownLeft"
+      },
+      {
+        "name": "rotateOutDownRight"
+      },
+      {
+        "name": "rotateOutUpLeft"
+      },
+      {
+        "name": "rotateOutUpRight"
+      }
+    ]
+  },
+  {
+    "type": "slide",
+    "options": [
+      {
+        "name": "slideInUp"
+      },
+      {
+        "name": "slideInDown"
+      },
+      {
+        "name": "slideInLeft"
+      },
+      {
+        "name": "slideInRight"
+      },
+      {
+        "name": "slideOutUp"
+      },
+      {
+        "name": "slideOutDown"
+      },
+      {
+        "name": "slideOutLeft"
+      },
+      {
+        "name": "slideOutRight"
+      }
+    ]
+  }
+]
