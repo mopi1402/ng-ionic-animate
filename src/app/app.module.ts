@@ -20,7 +20,7 @@ import { HttpModule } from "@angular/http";
     BrowserAnimationsModule,
     HttpModule,
     IonicModule.forRoot(MyApp, {
-      mode: 'md',
+      mode: 'md'
     })
   ],
   bootstrap: [IonicApp],

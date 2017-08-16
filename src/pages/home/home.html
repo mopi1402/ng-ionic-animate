@@ -9,6 +9,24 @@
   <h1 text-center ion-text color="secondary" [@animationType]="animationType | async">
     {{animation}}
   </h1>
+  
+  <!-- Bounce -->
+  <pre *ngIf="animation === 'bounceIn'" [innerHtml]="bounceIn"></pre>
+  <pre *ngIf="animation === 'bounceInUp'" [innerHtml]="bounceInUp"></pre>
+  <pre *ngIf="animation === 'bounceInRight'" [innerHtml]="bounceInRight"></pre>
+  <pre *ngIf="animation === 'bounceInDown'" [innerHtml]="bounceInDown"></pre>
+  <pre *ngIf="animation === 'bounceInLeft'" [innerHtml]="bounceInLeft"></pre> 
+
+  <!-- Fade -->
+  <pre *ngIf="animation === 'fadeIn'" [innerHtml]="fadeIn"></pre>
+  <pre *ngIf="animation === 'fadeInUp'" [innerHtml]="fadeInUp"></pre>
+  <pre *ngIf="animation === 'fadeInUpBig'" [innerHtml]="fadeInUpBig"></pre>
+  <pre *ngIf="animation === 'fadeInRight'" [innerHtml]="fadeInRight"></pre>
+  <pre *ngIf="animation === 'fadeInRightBig'" [innerHtml]="fadeInRightBig"></pre>
+  <pre *ngIf="animation === 'fadeInDown'" [innerHtml]="fadeInDown"></pre>
+  <pre *ngIf="animation === 'fadeInDownBig'" [innerHtml]="fadeInDownBig"></pre>
+  <pre *ngIf="animation === 'fadeInLeft'" [innerHtml]="fadeInLeft"></pre>
+  <pre *ngIf="animation === 'fadeInLeftBig'" [innerHtml]="fadeInLeftBig"></pre>
 </ion-content>
 
 <ion-footer no-border>

@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 107:
+/***/ 106:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -9,7 +9,7 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 107;
+webpackEmptyAsyncContext.id = 106;
 
 /***/ }),
 
@@ -26,17 +26,17 @@ webpackEmptyAsyncContext.id = 150;
 
 /***/ }),
 
-/***/ 194:
+/***/ 192:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_animations__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_animations__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__ = __webpack_require__(266);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_animations_animations__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_animations_animations__ = __webpack_require__(193);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -59,6 +59,14 @@ var HomePage = (function () {
         /** selected animation type */
         this._animationType = new __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__["BehaviorSubject"](null);
         this.animationType = this._animationType;
+        this.bounceIn = "\nimport { trigger, style, animate, transition, keyframes } from '@angular/animations';\n\n@Component({\n  selector: \"page-home\",\n  templateUrl: \"home.html\",\n  animations: [\n    trigger(\"animationName\", [\n      transition(\"* => bounceIn\", [\n        style({\n          \"animation-timing-function\": \"cubic-bezier(0.215, 0.610, 0.355, 1.000)\",\n          transition: \"opacity ease-in-out\",\n          transform: \"scale3d(.3, .3, .3)\",\n          opacity: 0\n        }),\n        animate(\"600ms\", keyframes([\n          style({opacity: 0.4, transform: \"scale3d(1.1, 1.1, 1.1)\", offset: 0.2}),\n          style({opacity: 0.8, transform: \"scale3d(.9, .9, .9)\", offset: 0.4}),\n          style({opacity: 1, transform: \"scale3d(1.03, 1.03, 1.03)\", offset: 0.6}),\n          style({transform: \"scale3d(.97, .97, .97)\", offset: 0.8}),\n          style({transform: \"scale3d(1, 1, 1)\", offset: 1.0})\n        ]))\n      ])\n    ]);\n  ]\n})\n\nexport class HomePage {\n  public animationName: string;\n}\n";
+        this.bounceInUp = "\nimport { trigger, style, animate, transition, keyframes } from '@angular/animations';\n\n@Component({\n  selector: \"page-home\",\n  templateUrl: \"home.html\",\n  animations: [\n    trigger(\"animationName\", [\n      transition('* => bounceInUp', [\n        style({\n          'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',\n          transition: 'opacity ease-in-out',\n          transform: 'translate3d(0, 3000px, 0)',\n          opacity: 0\n        }),\n        animate('600ms', keyframes([\n          style({opacity: 1, transform: 'translate3d(0, -20px, 0)', offset: 0.6}),\n          style({transform: 'translate3d(0, 10px, 0)', offset: 0.75}),\n          style({transform: 'translate3d(0, -5px, 0)', offset: 0.9}),\n          style({transform: 'translate3d(0, 0, 0)', offset: 1.0})\n        ]))\n      ])\n    ]);\n  ]\n})\n\nexport class HomePage {\n  public animationName: string;\n}\n";
+        this.bounceInRight = "\nimport { trigger, style, animate, transition, keyframes } from '@angular/animations';\n\n@Component({\n  selector: \"page-home\",\n  templateUrl: \"home.html\",\n  animations: [\n    trigger(\"animationName\", [\n      transition('* => bounceInRight', [\n        style({\n          'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',\n          transition: 'opacity ease-in-out',\n          transform: 'translate3d(3000px, 0, 0)',\n          opacity: 0\n        }),\n        animate('600ms', keyframes([\n          style({opacity: 1, transform: 'translate3d(-25px, 0, 0)', offset: 0.6}),\n          style({transform: 'translate3d(10px, 0, 0)', offset: 0.75}),\n          style({transform: 'translate3d(-5px, 0, 0)', offset: 0.9}),\n          style({transform: 'none', offset: 1.0})\n        ]))\n      ])\n    ]);\n  ]\n})\n\nexport class HomePage {\n  public animationName: string;\n}\n";
+        this.bounceInDown = "\nimport { trigger, style, animate, transition, keyframes } from '@angular/animations';\n\n@Component({\n  selector: \"page-home\",\n  templateUrl: \"home.html\",\n  animations: [\n    trigger(\"animationName\", [\n      transition('* => bounceInDown', [\n        style({\n          'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',\n          transition: 'opacity ease-in-out',\n          transform: 'translate3d(0, -3000px, 0)',\n          opacity: 0\n        }),\n        animate('600ms', keyframes([\n          style({opacity: 1, transform: 'translate3d(0, 25px, 0)', offset: 0.6}),\n          style({transform: 'translate3d(0, -10px, 0)', offset: 0.75}),\n          style({transform: 'translate3d(0, 5px, 0)', offset: 0.9}),\n          style({transform: 'translate3d(0, 0, 0)', offset: 1.0})\n        ]))\n      ])\n    ]);\n  ]\n})\n\nexport class HomePage {\n  public animationName: string;\n}\n";
+        this.bounceInLeft = "\nimport { trigger, style, animate, transition, keyframes } from '@angular/animations';\n\n@Component({\n  selector: \"page-home\",\n  templateUrl: \"home.html\",\n  animations: [\n    trigger(\"animationName\", [\n      transition('* => bounceInLeft', [\n        style({\n          'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',\n          transition: 'opacity ease-in-out',\n          transform: 'translate3d(-3000px, 0, 0)',\n          opacity: 0\n        }),\n        animate('600ms', keyframes([\n          style({opacity: 1, transform: 'translate3d(25px, 0, 0)', offset: 0.6}),\n          style({transform: 'translate3d(-10px, 0, 0)', offset: 0.75}),\n          style({transform: 'translate3d(5px, 0, 0)', offset: 0.9}),\n          style({transform: 'none', offset: 1.0})\n        ]))\n      ])\n    ]);\n  ]\n})\n\nexport class HomePage {\n  public animationName: string;\n}\n";
+        this.fadeIn = "\nimport { trigger, style, animate, transition, keyframes } from '@angular/animations';\n\n@Component({\n  selector: \"page-home\",\n  templateUrl: \"home.html\",\n  animations: [\n    trigger(\"animationName\", [\n      transition('* => fadeIn', [\n        style({\n          transition: 'opacity ease-in-out',\n          opacity: 0\n        }),\n        animate('600ms', style({\n          transition: 'opacity ease-in-out',\n          opacity: 1\n        }))\n      ])\n    ]);\n  ]\n})\n\nexport class HomePage {\n  public animationName: string;\n}\n";
+        this.fadeInUp = "\nimport { trigger, style, animate, transition, keyframes } from '@angular/animations';\n\n@Component({\n  selector: \"page-home\",\n  templateUrl: \"home.html\",\n  animations: [\n    trigger(\"animationName\", [\n      transition('* => fadeInUp', [\n        style({\n          transition: 'opacity ease-in-out',\n          transform: 'translate3d(0, 100%, 0)',\n          opacity: 0\n        }),\n        animate('600ms', style({\n          transition: 'opacity ease-in-out',\n          transform: 'none',\n          opacity: 1\n        }))\n      ])\n    ]);\n  ]\n})\n\nexport class HomePage {\n  public animationName: string;\n}\n";
+        this.fadeInUpBig = "\nimport { trigger, style, animate, transition, keyframes } from '@angular/animations';\n\n@Component({\n  selector: \"page-home\",\n  templateUrl: \"home.html\",\n  animations: [\n    trigger(\"animationName\", [\n      transition('* => fadeInUpBig', [\n        style({\n          transition: 'opacity ease-in-out',\n          transform: 'translate3d(0, 2000px, 0)',\n          opacity: 0\n        }),\n        animate('600ms', style({\n          transition: 'opacity ease-in-out',\n          transform: 'none',\n          opacity: 1\n        }))\n      ]),\n    ]);\n  ]\n})\n\nexport class HomePage {\n  public animationName: string;\n}\n";
         // default select value to animate
         this._animationType.next('bounceIn');
     }
@@ -86,10 +94,9 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/'<ion-content padding no-header>\n  <h2 text-center ion-text color="primary">ng-ionic-animate</h2>\n\n  <h3 text-center>\n    Angular animations within the Ionic framework.\n  </h3>\n\n  <!-- Text to Animate -->\n  <h1 text-center ion-text color="secondary" [@animationType]="animationType | async">\n    {{animation}}\n  </h1>\n</ion-content>\n\n<ion-footer no-border>\n  <ion-toolbar color="transparent">\n    <ion-row center id="select-animation-container">\n      <!-- Animation Selection -->\n      <ion-card color="light">\n        <ion-card-content>\n          <ion-item class="select-animation-item">\n            <ion-select [(ngModel)]="animation" margin-right>\n              <ion-label>Select Animation</ion-label>\n              <span *ngFor="let animation of animations">\n                <p>{{animation?.type}}</p>\n                <ion-option *ngFor="let option of animation.options" [value]="option.name">{{option?.name}}</ion-option>\n              </span>\n            </ion-select>\n            <button ion-button \n              item-end\n              icon-only\n              large\n              round\n              #animateButton\n              color="secondary" \n              (click)="doAnimate(animation)">\n                <ion-icon name="color-wand"></ion-icon>\n            </button>\n          </ion-item>\n        </ion-card-content>\n      </ion-card>\n    </ion-row>\n  </ion-toolbar>\n  <ion-toolbar color="primary">\n    <ion-title>By <a href="https://github.com/sarahtully" target="_blank" ion-text color="light">Sarah Tully</a>. Based on the <a href="https://github.com/daneden/animate.css" ion-text color="light" target="_blank">animate.css</a> library.</ion-title>\n    <ion-buttons end>\n      <a ion-button clear href="https://github.com/sarahtully/ng-ionic-animate" target="_blank">\n        View on Github\n      </a>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/,
+        selector: 'page-home',template:/*ion-inline-start:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/'<ion-content padding no-header>\n  <h2 text-center ion-text color="primary">ng-ionic-animate</h2>\n\n  <h3 text-center>\n    Angular animations within the Ionic framework.\n  </h3>\n\n  <!-- Text to Animate -->\n  <h1 text-center ion-text color="secondary" [@animationType]="animationType | async">\n    {{animation}}\n  </h1>\n  \n  <!-- Bounce -->\n  <pre *ngIf="animation === \'bounceIn\'" [innerHtml]="bounceIn"></pre>\n  <pre *ngIf="animation === \'bounceInUp\'" [innerHtml]="bounceInUp"></pre>\n  <pre *ngIf="animation === \'bounceInRight\'" [innerHtml]="bounceInRight"></pre>\n  <pre *ngIf="animation === \'bounceInDown\'" [innerHtml]="bounceInDown"></pre>\n  <pre *ngIf="animation === \'bounceInLeft\'" [innerHtml]="bounceInLeft"></pre> \n\n  <!-- Fade -->\n  <pre *ngIf="animation === \'fadeIn\'" [innerHtml]="fadeIn"></pre>\n  <pre *ngIf="animation === \'fadeInUp\'" [innerHtml]="fadeInUp"></pre>\n  <pre *ngIf="animation === \'fadeInUpBig\'" [innerHtml]="fadeInUpBig"></pre>\n  <pre *ngIf="animation === \'fadeInRight\'" [innerHtml]="fadeInRight"></pre>\n  <pre *ngIf="animation === \'fadeInRightBig\'" [innerHtml]="fadeInRightBig"></pre>\n  <pre *ngIf="animation === \'fadeInDown\'" [innerHtml]="fadeInDown"></pre>\n  <pre *ngIf="animation === \'fadeInDownBig\'" [innerHtml]="fadeInDownBig"></pre>\n  <pre *ngIf="animation === \'fadeInLeft\'" [innerHtml]="fadeInLeft"></pre>\n  <pre *ngIf="animation === \'fadeInLeftBig\'" [innerHtml]="fadeInLeftBig"></pre>\n</ion-content>\n\n<ion-footer no-border>\n  <ion-toolbar color="transparent">\n    <ion-row center id="select-animation-container">\n      <!-- Animation Selection -->\n      <ion-card color="light">\n        <ion-card-content>\n          <ion-item class="select-animation-item">\n            <ion-select [(ngModel)]="animation" margin-right>\n              <ion-label>Select Animation</ion-label>\n              <span *ngFor="let animation of animations">\n                <p>{{animation?.type}}</p>\n                <ion-option *ngFor="let option of animation.options" [value]="option.name">{{option?.name}}</ion-option>\n              </span>\n            </ion-select>\n            <button ion-button \n              item-end\n              icon-only\n              large\n              round\n              #animateButton\n              color="secondary" \n              (click)="doAnimate(animation)">\n                <ion-icon name="color-wand"></ion-icon>\n            </button>\n          </ion-item>\n        </ion-card-content>\n      </ion-card>\n    </ion-row>\n  </ion-toolbar>\n  <ion-toolbar color="primary">\n    <ion-title>By <a href="https://github.com/sarahtully" target="_blank" ion-text color="light">Sarah Tully</a>. Based on the <a href="https://github.com/daneden/animate.css" ion-text color="light" target="_blank">animate.css</a> library.</ion-title>\n    <ion-buttons end>\n      <a ion-button clear href="https://github.com/sarahtully/ng-ionic-animate" target="_blank">\n        View on Github\n      </a>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/Users/Sarah/Apps/ng-ionic-animate/src/pages/home/home.html"*/,
         animations: [
             Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["h" /* trigger */])('animationType', [
-                /** Bounce **/
                 Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => bounceIn', [
                     Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
                         'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',
@@ -161,7 +168,6 @@ HomePage = __decorate([
                         Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({ transform: 'none', offset: 1.0 })
                     ]))
                 ]),
-                /** Fade **/
                 Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => fadeIn', [
                     Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
                         transition: 'opacity ease-in-out',
@@ -352,7 +358,6 @@ HomePage = __decorate([
                         opacity: 0
                     }))
                 ]),
-                /** Rotate */
                 Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => rotateIn', [
                     Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
                         'transform-origin': 'center',
@@ -468,7 +473,6 @@ HomePage = __decorate([
                         opacity: 0
                     }))
                 ]),
-                /** Slide */
                 Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* transition */])('* => slideInUp', [
                     Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* style */])({
                         transform: 'translate3d(0, 100%, 0)',
@@ -540,25 +544,24 @@ HomePage = __decorate([
                         visibility: 'hidden',
                         transform: 'translate3d(100%, 0, 0)'
                     }))
-                ]),
+                ])
             ])
         ]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__providers_animations_animations__["a" /* AnimationsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__providers_animations_animations__["a" /* AnimationsProvider */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__providers_animations_animations__["a" /* AnimationsProvider */]])
 ], HomePage);
 
-var _a, _b;
 //# sourceMappingURL=home.js.map
 
 /***/ }),
 
-/***/ 195:
+/***/ 193:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AnimationsProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(267);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -591,21 +594,20 @@ var AnimationsProvider = (function () {
 }());
 AnimationsProvider = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
 ], AnimationsProvider);
 
-var _a;
 //# sourceMappingURL=animations.js.map
 
 /***/ }),
 
-/***/ 197:
+/***/ 195:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_web_animations_js_web_animations_min__ = __webpack_require__(268);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_web_animations_js_web_animations_min___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_web_animations_js_web_animations_min__);
 
@@ -616,21 +618,21 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 215:
+/***/ 213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_animations__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_animations__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__ = __webpack_require__(264);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(265);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_animations_animations__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_http__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_animations_animations__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_http__ = __webpack_require__(194);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -663,7 +665,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
             __WEBPACK_IMPORTED_MODULE_9__angular_http__["b" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {
-                mode: 'md',
+                mode: 'md'
             })
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["a" /* IonicApp */]],
@@ -690,8 +692,7 @@ AppModule = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_home_home__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_home_home__ = __webpack_require__(192);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -703,31 +704,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
 var MyApp = (function () {
-    function MyApp(platform) {
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_2__pages_home_home__["a" /* HomePage */];
-        // platform.ready().then(() => {
-        //   if(platform.is('cordova')) {
-        //     // Okay, so the platform is ready and our plugins are available.
-        //     // Here you can do any higher level native things you might need.
-        //     statusBar.styleDefault();
-        //     splashScreen.hide();
-        //   }
-        // });
+    function MyApp() {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_1__pages_home_home__["a" /* HomePage */];
     }
     return MyApp;
 }());
 MyApp = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/Sarah/Apps/ng-ionic-animate/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/Sarah/Apps/ng-ionic-animate/src/app/app.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [])
 ], MyApp);
 
-var _a;
 //# sourceMappingURL=app.component.js.map
 
 /***/ })
 
-},[197]);
+},[195]);
 //# sourceMappingURL=main.js.map

@@ -27513,8 +27513,25 @@ ion-navbar.toolbar {
   background-color: transparent;
 }
 
+.ios page-home pre, .md page-home pre {
+  -webkit-user-select: initial;
+  -moz-user-select: initial;
+  -ms-user-select: initial;
+  user-select: initial;
+  overflow: scroll;
+}
+
+.ios page-home pre::-moz-selection, .md page-home pre::-moz-selection {
+  background-color: #00BCD4;
+}
+
+.ios page-home pre::selection, .md page-home pre::selection {
+  background-color: #00BCD4;
+}
+
 .ios page-home h1, .md page-home h1 {
   padding-top: 50px;
+  padding-bottom: 30px;
   font-size: 5rem;
 }
 
@@ -27539,6 +27556,13 @@ ion-navbar.toolbar {
   }
 }
 
+.ios page-home pre, .ios page-home code, .md page-home pre, .md page-home code {
+  margin: 0;
+  padding: 0 15px 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
 .ios page-home h2, .md page-home h2 {
   font-family: 'Pacifico', cursive;
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -27547,7 +27571,7 @@ ion-navbar.toolbar {
 .ios page-home h3, .md page-home h3 {
   width: 100%;
   font-weight: 300;
-  padding-top: 20%;
+  padding-top: 1%;
 }
 
 @media (max-height: 375px) {
@@ -27561,4 +27585,8 @@ ion-navbar.toolbar {
     font-size: 1.8rem;
     padding-top: 7px;
   }
+}
+
+.embed-nav .logo-wrap a, .embed-nav ul li.results a {
+  display: none !important;
 }

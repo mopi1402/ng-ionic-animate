@@ -17,7 +17,6 @@ export interface Animation {
   templateUrl: 'home.html',
   animations: [
     trigger('animationType', [
-      /** Bounce **/
       transition('* => bounceIn', [
         style({
           'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',
@@ -89,7 +88,6 @@ export interface Animation {
           style({transform: 'none', offset: 1.0})
         ]))
       ]),
-      /** Fade **/
       transition('* => fadeIn', [
         style({
           transition: 'opacity ease-in-out',
@@ -280,7 +278,6 @@ export interface Animation {
           opacity: 0
         }))
       ]),
-      /** Rotate */
       transition('* => rotateIn', [
         style({
           'transform-origin': 'center',
@@ -396,7 +393,6 @@ export interface Animation {
           opacity: 0
         }))
       ]),
-      /** Slide */
       transition('* => slideInUp', [
         style({
           transform: 'translate3d(0, 100%, 0)',
@@ -468,7 +464,7 @@ export interface Animation {
           visibility: 'hidden',
           transform: 'translate3d(100%, 0, 0)'
         }))
-      ]),
+      ])
     ])
   ]
 })
@@ -508,4 +504,246 @@ export class HomePage {
       this._animationType.next(animationType);
     }, 300);
   }
+
+public bounceIn = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    trigger("animationName", [
+      transition("* => bounceIn", [
+        style({
+          "animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+          transition: "opacity ease-in-out",
+          transform: "scale3d(.3, .3, .3)",
+          opacity: 0
+        }),
+        animate("600ms", keyframes([
+          style({opacity: 0.4, transform: "scale3d(1.1, 1.1, 1.1)", offset: 0.2}),
+          style({opacity: 0.8, transform: "scale3d(.9, .9, .9)", offset: 0.4}),
+          style({opacity: 1, transform: "scale3d(1.03, 1.03, 1.03)", offset: 0.6}),
+          style({transform: "scale3d(.97, .97, .97)", offset: 0.8}),
+          style({transform: "scale3d(1, 1, 1)", offset: 1.0})
+        ]))
+      ])
+    ]);
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
+public bounceInUp = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    trigger("animationName", [
+      transition('* => bounceInUp', [
+        style({
+          'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',
+          transition: 'opacity ease-in-out',
+          transform: 'translate3d(0, 3000px, 0)',
+          opacity: 0
+        }),
+        animate('600ms', keyframes([
+          style({opacity: 1, transform: 'translate3d(0, -20px, 0)', offset: 0.6}),
+          style({transform: 'translate3d(0, 10px, 0)', offset: 0.75}),
+          style({transform: 'translate3d(0, -5px, 0)', offset: 0.9}),
+          style({transform: 'translate3d(0, 0, 0)', offset: 1.0})
+        ]))
+      ])
+    ]);
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
+public bounceInRight = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    trigger("animationName", [
+      transition('* => bounceInRight', [
+        style({
+          'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',
+          transition: 'opacity ease-in-out',
+          transform: 'translate3d(3000px, 0, 0)',
+          opacity: 0
+        }),
+        animate('600ms', keyframes([
+          style({opacity: 1, transform: 'translate3d(-25px, 0, 0)', offset: 0.6}),
+          style({transform: 'translate3d(10px, 0, 0)', offset: 0.75}),
+          style({transform: 'translate3d(-5px, 0, 0)', offset: 0.9}),
+          style({transform: 'none', offset: 1.0})
+        ]))
+      ])
+    ]);
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
+public bounceInDown = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    trigger("animationName", [
+      transition('* => bounceInDown', [
+        style({
+          'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',
+          transition: 'opacity ease-in-out',
+          transform: 'translate3d(0, -3000px, 0)',
+          opacity: 0
+        }),
+        animate('600ms', keyframes([
+          style({opacity: 1, transform: 'translate3d(0, 25px, 0)', offset: 0.6}),
+          style({transform: 'translate3d(0, -10px, 0)', offset: 0.75}),
+          style({transform: 'translate3d(0, 5px, 0)', offset: 0.9}),
+          style({transform: 'translate3d(0, 0, 0)', offset: 1.0})
+        ]))
+      ])
+    ]);
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
+public bounceInLeft = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    trigger("animationName", [
+      transition('* => bounceInLeft', [
+        style({
+          'animation-timing-function': 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',
+          transition: 'opacity ease-in-out',
+          transform: 'translate3d(-3000px, 0, 0)',
+          opacity: 0
+        }),
+        animate('600ms', keyframes([
+          style({opacity: 1, transform: 'translate3d(25px, 0, 0)', offset: 0.6}),
+          style({transform: 'translate3d(-10px, 0, 0)', offset: 0.75}),
+          style({transform: 'translate3d(5px, 0, 0)', offset: 0.9}),
+          style({transform: 'none', offset: 1.0})
+        ]))
+      ])
+    ]);
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
+public fadeIn = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    trigger("animationName", [
+      transition('* => fadeIn', [
+        style({
+          transition: 'opacity ease-in-out',
+          opacity: 0
+        }),
+        animate('600ms', style({
+          transition: 'opacity ease-in-out',
+          opacity: 1
+        }))
+      ])
+    ]);
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
+public fadeInUp = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    trigger("animationName", [
+      transition('* => fadeInUp', [
+        style({
+          transition: 'opacity ease-in-out',
+          transform: 'translate3d(0, 100%, 0)',
+          opacity: 0
+        }),
+        animate('600ms', style({
+          transition: 'opacity ease-in-out',
+          transform: 'none',
+          opacity: 1
+        }))
+      ])
+    ]);
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
+public fadeInUpBig = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    trigger("animationName", [
+      transition('* => fadeInUpBig', [
+        style({
+          transition: 'opacity ease-in-out',
+          transform: 'translate3d(0, 2000px, 0)',
+          opacity: 0
+        }),
+        animate('600ms', style({
+          transition: 'opacity ease-in-out',
+          transform: 'none',
+          opacity: 1
+        }))
+      ]),
+    ]);
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
 }
