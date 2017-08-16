@@ -746,4 +746,168 @@ export class HomePage {
 }
 `
 
+public fadeInRight = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    transition('* => fadeInRight', [
+        style({
+          transition: 'opacity ease-in-out',
+          transform: 'translate3d(100%, 0, 0)',
+          opacity: 0
+        }),
+        animate('600ms', style({
+          transition: 'opacity ease-in-out',
+          transform: 'none',
+          opacity: 1
+        }))
+      ])
+    ]);
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
+public fadeInRightBig = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    transition('* => fadeInRightBig', [
+        style({
+          transition: 'opacity ease-in-out',
+          transform: 'translate3d(2000px, 0, 0)',
+          opacity: 0
+        }),
+        animate('600ms', style({
+          transition: 'opacity ease-in-out',
+          transform: 'none',
+          opacity: 1
+        }))
+      ])
+    ]);
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
+public fadeInDown = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    transition('* => fadeInDown', [
+      style({
+        transition: 'opacity ease-in-out',
+        transform: 'translate3d(0, -100%, 0)',
+        opacity: 0
+      }),
+      animate('600ms', style({
+        transition: 'opacity ease-in-out',
+        transform: 'none',
+        opacity: 1
+      }))
+    ])
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
+public fadeInDownBig = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    transition('* => fadeInDownBig', [
+      style({
+        transition: 'opacity ease-in-out',
+        transform: 'translate3d(0, -2000px, 0)',
+        opacity: 0
+      }),
+      animate('600ms', style({
+        transition: 'opacity ease-in-out',
+        transform: 'none',
+        opacity: 1
+      }))
+    ])
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
+public fadeInLeft = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    transition('* => fadeInLeft', [
+      style({
+        transition: 'opacity ease-in-out',
+        transform: 'translate3d(-100%, 0, 0)',
+        opacity: 0
+      }),
+      animate('600ms', style({
+        transition: 'opacity ease-in-out',
+        transform: 'none',
+        opacity: 1
+      }))
+    ]),
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
+public fadeInLeftBig = `
+import { trigger, style, animate, transition, keyframes } from '@angular/animations';
+
+@Component({
+  selector: "page-home",
+  templateUrl: "home.html",
+  animations: [
+    transition('* => fadeInLeftBig', [
+      style({
+        transition: 'opacity ease-in-out',
+        transform: 'translate3d(-2000px, 0, 0)',
+        opacity: 0
+      }),
+      animate('600ms', style({
+        transition: 'opacity ease-in-out',
+        transform: 'none',
+        opacity: 1
+      }))
+    ])
+  ]
+})
+
+export class HomePage {
+  public animationName: string;
+}
+`
+
 }
